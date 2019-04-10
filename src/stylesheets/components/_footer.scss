@@ -1,0 +1,137 @@
+.footer {
+    background-color: $big-light-gray;
+    padding: 1rem 0;
+    color: black;
+    text-align: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.75rem;
+
+    &__column {
+        padding: 0.5rem 0;
+    }
+
+    &__buttons {
+        margin-bottom: 0.5rem;
+        list-style: none;
+        padding: 0;
+
+        @include media-breakpoint-up(xl) {
+            display: flex;
+            justify-content: center;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+        }
+
+        li {
+            list-style: none;
+            width: 100%;
+            margin: 0.5rem 0;
+
+            @include media-breakpoint-up(sm) {
+                display: inline-block;
+                width: 50%;
+            }
+
+            @include media-breakpoint-up(xl) {
+                width: initial;
+                float: initial;
+                margin: 0 0.5rem;
+            }
+        }
+    }
+
+    &__links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: block;
+            padding: 0;
+
+            @include media-breakpoint-up(sm) {
+                padding: 0.5rem 0;
+            }
+
+            @include media-breakpoint-up(md) {
+                display: inline-block;
+                padding-left: 1rem;
+            }
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+
+        &--social {
+            list-style: none;
+            padding: 1rem 0;
+            margin: 0;
+            position: relative;
+            z-index: 3;
+            width: 100%;
+            display: block;
+
+            li {
+                display: inline-block;
+                text-align: left;
+                width: 50px;
+
+                @media (max-width: 399px) {
+                    width: 30px;
+                }
+
+                .icon {
+
+                    & > div {
+                        width: 26px;
+                        height: 26px;
+                        display: inline-block;
+                    }
+
+                    &-twitter > div {
+                        background: url('../images/icons/twitter-black.svg') no-repeat center center;
+                        background-size: 26px;
+
+                        &:hover {
+                            background: url('../images/icons/twitter-red.svg') no-repeat center center;
+                            background-size: 26px;
+                        }
+                    }
+
+                    &-skype > div {
+                        background: url('../images/icons/skype-black.svg') no-repeat center center;
+                        background-size: 26px;
+
+                        &:hover {
+                            background: url('../images/icons/youtube-red.svg') no-repeat center center;
+                            background-size: 26px;
+                        }
+                    }
+                }
+            }
+
+            &.mobile {
+                visibility: visible;
+                margin: 0 auto;
+                padding-left: 0;
+                overflow: hidden;
+
+                li {
+                    display: inline-block;
+                    width: 50px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .dominion-logo {
+        @include media-breakpoint-down(xs) {
+            width: 260px;
+        }
+    }
+}
