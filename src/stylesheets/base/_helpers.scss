@@ -55,31 +55,8 @@ a {
 }
 
 .container {
-    &--gray {
-        background-color: $big-light-gray;
-    }
-
-    &--dark-gray {
-        background-color: $big-dark-gray;
-        color: white;
-    }
-}
-
-.container {
     @include media-breakpoint-down(xs) {
         //padding-left: 0;
         //padding-right: 0;
-    }
-}
-
-.hidden-mobile {
-    @include media-breakpoint-down(xs) {
-        display: none;
-    }
-}
-
-.visible-mobile {
-    @include media-breakpoint-up(sm) {
-        display: none;
     }
 }

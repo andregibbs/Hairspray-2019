@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "bodymovin": "^4.13.0",
     "bootstrap": "^4.3.1",
     "core-js": "^2.0.0",
     "gatsby": "^2.2.7",
@@ -22,6 +23,7 @@
     "gatsby-source-filesystem": "^2.0.23",
     "gatsby-transformer-json": "^2.1.11",
     "gatsby-transformer-sharp": "^2.1.14",
+    "lottie-web": "^5.5.1",
     "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
@@ -29,6 +31,7 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
     "react-image-lightbox": "^5.1.0",
+    "react-lottie": "^1.2.3",
     "react-mailchimp-subscribe": "^2.1.0",
     "reactstrap": "^7.1.0"
   },

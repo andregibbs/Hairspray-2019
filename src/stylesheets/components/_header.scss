@@ -1,0 +1,119 @@
+.header {
+    &__links {
+        &--social {
+            list-style: none;
+            margin: 0 0 0 1rem;
+            position: relative;
+            padding: 0;
+            z-index: 3;
+            width: 100%;
+            display: block;
+
+            li {
+                display: inline-block;
+                text-align: left;
+                width: 30px;
+                margin: 0 0.75rem;
+                position: relative;
+
+                @media (max-width: 399px) {
+                    width: 30px;
+                }
+
+                .icon {
+                    display: block;
+                    padding: 1.1rem 0 0.7rem 0;
+                    width: 40px;
+                    text-align: center;
+
+                    & > div {
+                        width: 30px;
+                        height: 30px;
+                        display: inline-block;
+                    }
+
+                    &-twitter {
+
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            z-index: -1;
+                            background: url('../images/icons/twitter-bg.svg') no-repeat center center;
+                            background-size: 40px;
+                            width: 40px;
+                            height: 40px;
+                            top: 12px;
+                            left: 0;
+                            transition: $transition-base;
+                        }
+
+                        &:hover {
+                            &:before {
+                                //transform: rotate(30deg);
+                                //transform: skew(-20deg, 20deg);
+                                transform: matrix(1, -0.3, 0.3, 1.1, 0, 0);
+                            }
+                        }
+
+                        & > div {
+                            background: url('../images/icons/twitter.svg') no-repeat center center;
+                            background-size: 30px;
+                        }
+                    }
+
+                    &-facebook {
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            z-index: -1;
+                            background: url('../images/icons/facebook-bg.svg') no-repeat center center;
+                            background-size: 40px;
+                            width: 40px;
+                            height: 40px;
+                            top: 12px;
+                            left: 0;
+                            transition: $transition-base;
+                        }
+
+                        &:hover {
+                            &:before {
+                                transform: matrix(1, 0.3, -0.3, 1.1, 0, 0);
+                            }
+                        }
+
+                        & > div {
+                            background: url('../images/icons/facebook.svg') no-repeat center center;
+                            background-size: 30px;
+                        }
+                    }
+
+                    &-instagram {
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            z-index: -1;
+                            background: url('../images/icons/instagram-bg.svg') no-repeat center center;
+                            background-size: 40px;
+                            width: 40px;
+                            height: 40px;
+                            top: 12px;
+                            left: 0;
+                            transition: $transition-base;
+                        }
+
+                        &:hover {
+                            &:before {
+                                transform: matrix(1.2, -0.3, 0.3, 1.1, 0, 0);
+                            }
+                        }
+
+                        & > div {
+                            background: url('../images/icons/instagram.svg') no-repeat center center;
+                            background-size: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,14 +1,14 @@
 @mixin close-button($bgcolor, $color) {
   height: 36px;
   width: 36px;
-  background-color: $bgcolor;
+  background: none;
   position: relative;
   cursor: pointer;
   border: 0;
   transition: $transition-base;
   z-index: 4;
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     height: 50px;
     width: 50px;
   }
@@ -16,8 +16,8 @@
   &:after,
   &:before {
     content: '';
-    background-color: $color;
-    width: 45%;
+    background-color: $bgcolor;
+    width: 65%;
     height: 3px;
     position: absolute;
     border-radius: 2px;

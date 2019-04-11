@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 import {Link} from 'gatsby'
 import PropTypes from 'prop-types'
-import Footer from './Footer/Footer'
 import CookieConsent from "react-cookie-consent";
 import SEO from './seo'
+import Header from './Header'
 import 'stylesheets/main.scss';
 
 class Layout extends Component {
@@ -43,7 +43,7 @@ class Layout extends Component {
 
                 <noscript className="no-js">Javascript is required to view the full experience of this site.</noscript>
 
-                <div className="outdated-browser" id="outdated-browser"></div>
+                <div className="outdated-browser" id="outdated-browser"/>
 
                 <script
                     dangerouslySetInnerHTML={{
@@ -107,10 +107,8 @@ class Layout extends Component {
                 `,
                     }}
                 />
+                <Header/>
                 {children}
-                <Footer/>
-
-
             </>
         )
     }

@@ -1,0 +1,4725 @@
+{
+  "v": "5.4.4",
+  "fr": 25,
+  "ip": 0,
+  "op": 125,
+  "w": 831,
+  "h": 304,
+  "nm": "HAIRSPRAY_LOGO-1line",
+  "ddd": 0,
+  "assets": [],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 4,
+      "nm": "HAIRSPRAY_LOGO-1line Outlines",
+      "sr": 1.5,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            415.435,
+            151.572,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            351.935,
+            85.072,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167,
+                  0.167,
+                  0.167
+                ],
+                "y": [
+                  0.167,
+                  0.167,
+                  1.667
+                ]
+              },
+              "t": 0,
+              "s": [
+                90,
+                90,
+                100
+              ],
+              "e": [
+                100,
+                100,
+                100
+              ]
+            },
+            {
+              "t": 100
+            }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "H-Spring",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "A-Spring",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 2,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "A_bg-Spring-1",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 3,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 100,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "A_bg-Spring-2",
+          "np": 5,
+          "mn": "Pseudo/DUIK 1d spring",
+          "ix": 4,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK 1d spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK 1d spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Bounce",
+              "mn": "Pseudo/DUIK 1d spring-0003",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 3
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "A_bg-Spring-3",
+          "np": 5,
+          "mn": "Pseudo/DUIK spatial spring",
+          "ix": 5,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK spatial spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK spatial spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Mode",
+              "mn": "Pseudo/DUIK spatial spring-0003",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 3
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "I-Arm-Spring",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 6,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "I-Dot-Spring-1",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 7,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "I-Dot-Spring-2",
+          "np": 5,
+          "mn": "Pseudo/DUIK spatial spring",
+          "ix": 8,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK spatial spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK spatial spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Mode",
+              "mn": "Pseudo/DUIK spatial spring-0003",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 3
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "R-Spring",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 9,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "R-bg-Spring-1",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 10,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "R-bg-Spring-2",
+          "np": 5,
+          "mn": "Pseudo/DUIK 1d spring",
+          "ix": 11,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK 1d spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK 1d spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Bounce",
+              "mn": "Pseudo/DUIK 1d spring-0003",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 3
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "R-bg-Spring-3",
+          "np": 5,
+          "mn": "Pseudo/DUIK spatial spring",
+          "ix": 12,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK spatial spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK spatial spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Mode",
+              "mn": "Pseudo/DUIK spatial spring-0003",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 3
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "S-Spring",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 13,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "P-Spring",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 14,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 25,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "P-bg-Spring-1",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 15,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 9,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "R-Spring",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 16,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "A-Spring",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 17,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 1,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 20,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "A-bg-Spring-1",
+          "np": 5,
+          "mn": "Pseudo/DUIK 1d spring",
+          "ix": 18,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK 1d spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK 1d spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Bounce",
+              "mn": "Pseudo/DUIK 1d spring-0003",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 3
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "A-bg-Spring-2",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 19,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "A-bg-Spring-3",
+          "np": 5,
+          "mn": "Pseudo/DUIK 1d spring",
+          "ix": 20,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK 1d spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK 1d spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "Bounce",
+              "mn": "Pseudo/DUIK 1d spring-0003",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 3
+              }
+            }
+          ]
+        },
+        {
+          "ty": 5,
+          "nm": "Y-Spring",
+          "np": 4,
+          "mn": "Pseudo/DUIK multid spring",
+          "ix": 21,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Elasticity",
+              "mn": "Pseudo/DUIK multid spring-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Damping",
+              "mn": "Pseudo/DUIK multid spring-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 10,
+                "ix": 2
+              }
+            }
+          ]
+        }
+      ],
+      "shapes": [
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0.611,
+                      68.96
+                    ],
+                    [
+                      -15.859,
+                      0.187
+                    ],
+                    [
+                      -0.154,
+                      -25.094
+                    ],
+                    [
+                      -10.063,
+                      0
+                    ],
+                    [
+                      -0.611,
+                      -19.331
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      14.797,
+                      0
+                    ],
+                    [
+                      0.457,
+                      28.439
+                    ],
+                    [
+                      5.489,
+                      0
+                    ],
+                    [
+                      0.154,
+                      -11.156
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      15.099,
+                      -0.372
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      4.266,
+                      -8.923
+                    ],
+                    [
+                      13.728,
+                      0
+                    ],
+                    [
+                      0.761,
+                      31.415
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      -0.302,
+                      -9.109
+                    ],
+                    [
+                      -6.864,
+                      0
+                    ],
+                    [
+                      -0.309,
+                      22.303
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -33.854,
+                      -64.092
+                    ],
+                    [
+                      -9.76,
+                      -64.279
+                    ],
+                    [
+                      -10.063,
+                      -21.111
+                    ],
+                    [
+                      11.587,
+                      -35.982
+                    ],
+                    [
+                      33.093,
+                      -4.568
+                    ],
+                    [
+                      33.242,
+                      64.279
+                    ],
+                    [
+                      8.994,
+                      63.907
+                    ],
+                    [
+                      9.148,
+                      3.798
+                    ],
+                    [
+                      1.524,
+                      -10.143
+                    ],
+                    [
+                      -9.149,
+                      9.377
+                    ],
+                    [
+                      -9.149,
+                      56.59
+                    ],
+                    [
+                      -33.854,
+                      56.773
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.921213666131,
+                  0.08641239989,
+                  0.528454889036,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  33.854,
+                  71.355
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 0,
+                    "s": [
+                      0,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 6
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('H-Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "H",
+          "np": 2,
+          "cix": 2,
+          "bm": 0,
+          "ix": 1,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      -8.207
+                    ],
+                    [
+                      -5.417,
+                      0
+                    ],
+                    [
+                      0,
+                      16.239
+                    ]
+                  ],
+                  "o": [
+                    [
+                      -14.496,
+                      -0.535
+                    ],
+                    [
+                      0,
+                      6.248
+                    ],
+                    [
+                      5.855,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      9.957,
+                      4.73
+                    ],
+                    [
+                      -9.661,
+                      19.005
+                    ],
+                    [
+                      -1.316,
+                      29
+                    ],
+                    [
+                      9.957,
+                      8.122
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ind": 1,
+              "ty": "sh",
+              "ix": 2,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      15.705
+                    ],
+                    [
+                      -28.697,
+                      -1.25
+                    ],
+                    [
+                      0.148,
+                      1.786
+                    ],
+                    [
+                      5.417,
+                      0
+                    ],
+                    [
+                      0.438,
+                      -9.103
+                    ],
+                    [
+                      13.323,
+                      0.537
+                    ],
+                    [
+                      -19.031,
+                      0
+                    ],
+                    [
+                      -0.439,
+                      -24.273
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      12.007,
+                      -0.177
+                    ],
+                    [
+                      -0.143,
+                      8.564
+                    ],
+                    [
+                      9.37,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      -19.986
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      -0.439,
+                      -9.991
+                    ],
+                    [
+                      -5.708,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0.587,
+                      -19.809
+                    ],
+                    [
+                      21.963,
+                      0
+                    ],
+                    [
+                      0.587,
+                      29.623
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      -4.392,
+                      9.995
+                    ],
+                    [
+                      -14.644,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -33.089,
+                      21.862
+                    ],
+                    [
+                      8.932,
+                      -9.01
+                    ],
+                    [
+                      8.784,
+                      -13.118
+                    ],
+                    [
+                      0.439,
+                      -27.927
+                    ],
+                    [
+                      -8.493,
+                      -13.294
+                    ],
+                    [
+                      -30.309,
+                      -14.009
+                    ],
+                    [
+                      0.878,
+                      -47.381
+                    ],
+                    [
+                      32.502,
+                      -9.545
+                    ],
+                    [
+                      32.65,
+                      47.204
+                    ],
+                    [
+                      13.614,
+                      47.381
+                    ],
+                    [
+                      14.201,
+                      33.283
+                    ],
+                    [
+                      -8.635,
+                      47.381
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 2",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "mm",
+              "mm": 1,
+              "nm": "Merge Paths 1",
+              "mn": "ADBE Vector Filter - Merge",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.999999940162,
+                  0.999999940162,
+                  1,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  126.216,
+                  83.787
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 15,
+                    "s": [
+                      0,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 21
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('A-Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "A",
+          "np": 4,
+          "cix": 2,
+          "bm": 0,
+          "ix": 2,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -41.027,
+                      -68.704
+                    ],
+                    [
+                      38.266,
+                      -61.446
+                    ],
+                    [
+                      44.241,
+                      67.023
+                    ],
+                    [
+                      -44.241,
+                      68.704
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.99751251936,
+                  0.442478507757,
+                  0.067626275122,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  128.01,
+                  80.153
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": 0.667,
+                      "y": 1
+                    },
+                    "o": {
+                      "x": 0.333,
+                      "y": 0
+                    },
+                    "t": 15,
+                    "s": [
+                      32,
+                      60
+                    ],
+                    "e": [
+                      0,
+                      0
+                    ],
+                    "to": [
+                      -5.333,
+                      -10
+                    ],
+                    "ti": [
+                      5.333,
+                      10
+                    ]
+                  },
+                  {
+                    "t": 21
+                  }
+                ],
+                "ix": 1,
+                "x": "var $bm_rt;\nvar damping, elasticity, simulation, speedLimit, elasticity, retard, poids, precision, tempsDebut, tempsRedemarrage, stop, arrete, i, tempsRedemarrage, tempsDebut, temps, frameRedemarre, valeur, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('A_bg-Spring-3');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nsimulation = fx(3).value;\nspeedLimit = 0.1;\nif (damping == 0)\n    damping = 0.01;\nif (elasticity == 0)\n    elasticity = 0.01;\nretard = $bm_div(elasticity, damping);\npoids = $bm_div($bm_div(1, damping), 10);\nprecision = thisComp.frameDuration;\nvar result = value;\nfunction worldVelocity(temps) {\n    var worldVelocityX, worldVelocityY;\n    worldVelocityX = $bm_mul($bm_sub(thisLayer.toWorld(value, temps)[0], thisLayer.toWorld(value, $bm_sub(temps, 0.01))[0]), 100);\n    worldVelocityY = $bm_mul($bm_sub(thisLayer.toWorld(value, temps)[1], thisLayer.toWorld(value, $bm_sub(temps, 0.01))[1]), 100);\n    return [\n        worldVelocityX,\n        worldVelocityY\n    ];\n}\nfunction worldSpeed(temps) {\n    return length(worldVelocity(temps));\n}\nif (simulation == 2) {\n    tempsDebut = 0;\n    tempsRedemarrage = 0;\n    stop = false;\n    arrete = false;\n    for (i = timeToFrames(time); i >= 0; i--) {\n        var instant = framesToTime(i);\n        var instantSuivant = $bm_sub(instant, precision);\n        if (worldSpeed(instant) == 0) {\n            if (tempsRedemarrage == 0)\n                tempsRedemarrage = instant;\n            if (worldSpeed(instantSuivant) != 0) {\n                tempsDebut = instantSuivant;\n                break;\n            }\n        }\n    }\n    temps = $bm_sub(time, tempsDebut);\n    frameRedemarre = timeToFrames($bm_sub(time, tempsRedemarrage));\n    valeur = value;\n    if (frameRedemarre <= retard)\n        result = $bm_sub(value, $bm_mul($bm_mul(worldVelocity(time), poids), $bm_div(frameRedemarre, retard)));\n    else\n        result = $bm_sub(value, $bm_mul(worldVelocity(time), poids));\n    if (worldSpeed(time) == 0) {\n        result = $bm_sum(result, $bm_mul(worldVelocity(tempsDebut), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping)))));\n    }\n} else if (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    result = $bm_sum(valueAtTime(tempsDebut), spring);\n}\n$bm_rt = result;"
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 15,
+                    "s": [
+                      0,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 21
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('A_bg-Spring-1');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 15,
+                    "s": [
+                      -100
+                    ],
+                    "e": [
+                      0
+                    ]
+                  },
+                  {
+                    "t": 21
+                  }
+                ],
+                "ix": 6,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('A_bg-Spring-2');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "A_bg",
+          "np": 2,
+          "cix": 2,
+          "bm": 0,
+          "ix": 3,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      10.172
+                    ],
+                    [
+                      -9.661,
+                      0
+                    ],
+                    [
+                      0,
+                      -8.744
+                    ],
+                    [
+                      9.809,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      -9.279
+                    ],
+                    [
+                      9.661,
+                      0
+                    ],
+                    [
+                      0,
+                      8.923
+                    ],
+                    [
+                      -9.808,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -14.42,
+                      -49.165
+                    ],
+                    [
+                      0.219,
+                      -64.157
+                    ],
+                    [
+                      14.42,
+                      -49.165
+                    ],
+                    [
+                      0.219,
+                      -33.639
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 2",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "mm",
+              "mm": 1,
+              "nm": "Merge Paths 1",
+              "mn": "ADBE Vector Filter - Merge",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.004046026866,
+                  0.005336633851,
+                  0.012324501486,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": 0.667,
+                      "y": 1
+                    },
+                    "o": {
+                      "x": 0.333,
+                      "y": 0
+                    },
+                    "t": 30,
+                    "s": [
+                      198.138,
+                      -39.236
+                    ],
+                    "e": [
+                      198.138,
+                      29.764
+                    ],
+                    "to": [
+                      0,
+                      11.5
+                    ],
+                    "ti": [
+                      0,
+                      -11.5
+                    ]
+                  },
+                  {
+                    "t": 36
+                  }
+                ],
+                "ix": 2,
+                "x": "var $bm_rt;\nvar damping, elasticity, simulation, speedLimit, elasticity, retard, poids, precision, tempsDebut, tempsRedemarrage, stop, arrete, i, tempsRedemarrage, tempsDebut, temps, frameRedemarre, valeur, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('I-Dot-Spring-2');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nsimulation = fx(3).value;\nspeedLimit = 0.1;\nif (damping == 0)\n    damping = 0.01;\nif (elasticity == 0)\n    elasticity = 0.01;\nretard = $bm_div(elasticity, damping);\npoids = $bm_div($bm_div(1, damping), 10);\nprecision = thisComp.frameDuration;\nvar result = value;\nfunction worldVelocity(temps) {\n    var worldVelocityX, worldVelocityY;\n    worldVelocityX = $bm_mul($bm_sub(thisLayer.toWorld(value, temps)[0], thisLayer.toWorld(value, $bm_sub(temps, 0.01))[0]), 100);\n    worldVelocityY = $bm_mul($bm_sub(thisLayer.toWorld(value, temps)[1], thisLayer.toWorld(value, $bm_sub(temps, 0.01))[1]), 100);\n    return [\n        worldVelocityX,\n        worldVelocityY\n    ];\n}\nfunction worldSpeed(temps) {\n    return length(worldVelocity(temps));\n}\nif (simulation == 2) {\n    tempsDebut = 0;\n    tempsRedemarrage = 0;\n    stop = false;\n    arrete = false;\n    for (i = timeToFrames(time); i >= 0; i--) {\n        var instant = framesToTime(i);\n        var instantSuivant = $bm_sub(instant, precision);\n        if (worldSpeed(instant) == 0) {\n            if (tempsRedemarrage == 0)\n                tempsRedemarrage = instant;\n            if (worldSpeed(instantSuivant) != 0) {\n                tempsDebut = instantSuivant;\n                break;\n            }\n        }\n    }\n    temps = $bm_sub(time, tempsDebut);\n    frameRedemarre = timeToFrames($bm_sub(time, tempsRedemarrage));\n    valeur = value;\n    if (frameRedemarre <= retard)\n        result = $bm_sub(value, $bm_mul($bm_mul(worldVelocity(time), poids), $bm_div(frameRedemarre, retard)));\n    else\n        result = $bm_sub(value, $bm_mul(worldVelocity(time), poids));\n    if (worldSpeed(time) == 0) {\n        result = $bm_sum(result, $bm_mul(worldVelocity(tempsDebut), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping)))));\n    }\n} else if (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    result = $bm_sum(valueAtTime(tempsDebut), spring);\n}\n$bm_rt = result;"
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  -34.393
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 30,
+                    "s": [
+                      0,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 36
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('I-Dot-Spring-1');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "I_dot",
+          "np": 3,
+          "cix": 2,
+          "bm": 0,
+          "ix": 4,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0.587,
+                      65.497
+                    ],
+                    [
+                      -14.787,
+                      0.359
+                    ],
+                    [
+                      -0.586,
+                      -48.539
+                    ],
+                    [
+                      13.466,
+                      -0.357
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -11.788,
+                      -25.075
+                    ],
+                    [
+                      11.64,
+                      -25.253
+                    ],
+                    [
+                      12.078,
+                      63.978
+                    ],
+                    [
+                      -11.344,
+                      64.157
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "mm",
+              "mm": 1,
+              "nm": "Merge Paths 1",
+              "mn": "ADBE Vector Filter - Merge",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.004046026866,
+                  0.005336633851,
+                  0.012324501486,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  198.138,
+                  127.7
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  63.543
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 30,
+                    "s": [
+                      100,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 36
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('I-Arm-Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "I",
+          "np": 3,
+          "cix": 2,
+          "bm": 0,
+          "ix": 5,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0.439,
+                      43.188
+                    ],
+                    [
+                      -13.323,
+                      0.358
+                    ],
+                    [
+                      0,
+                      -8.922
+                    ],
+                    [
+                      -12.297,
+                      -0.892
+                    ],
+                    [
+                      0.296,
+                      -17.667
+                    ],
+                    [
+                      0.444,
+                      -21.416
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      15.812,
+                      -0.177
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      4.534,
+                      -12.313
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      -16.394,
+                      1.43
+                    ],
+                    [
+                      -0.29,
+                      13.386
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -23.279,
+                      -42.028
+                    ],
+                    [
+                      -3.953,
+                      -42.206
+                    ],
+                    [
+                      -4.243,
+                      -26.323
+                    ],
+                    [
+                      23.279,
+                      -45.417
+                    ],
+                    [
+                      22.546,
+                      -18.294
+                    ],
+                    [
+                      0.29,
+                      12.76
+                    ],
+                    [
+                      0.586,
+                      46.132
+                    ],
+                    [
+                      -23.132,
+                      46.309
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.004046026866,
+                  0.005336633851,
+                  0.012324501486,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  261.286,
+                  82.36
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 9,
+                    "s": [
+                      0,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 15
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('R-Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "R",
+          "np": 2,
+          "cix": 2,
+          "bm": 0,
+          "ix": 6,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -31.513,
+                      -62.608
+                    ],
+                    [
+                      -32.263,
+                      62.607
+                    ],
+                    [
+                      29.261,
+                      66.016
+                    ],
+                    [
+                      32.263,
+                      -66.016
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.969905778473,
+                  0.481500902363,
+                  0.726500028722,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  261.245,
+                  83.801
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": 0.667,
+                      "y": 1
+                    },
+                    "o": {
+                      "x": 0.333,
+                      "y": 0
+                    },
+                    "t": 9,
+                    "s": [
+                      -22,
+                      0
+                    ],
+                    "e": [
+                      0,
+                      0
+                    ],
+                    "to": [
+                      3.667,
+                      0
+                    ],
+                    "ti": [
+                      -3.667,
+                      0
+                    ]
+                  },
+                  {
+                    "t": 15
+                  }
+                ],
+                "ix": 1,
+                "x": "var $bm_rt;\nvar damping, elasticity, simulation, speedLimit, elasticity, retard, poids, precision, tempsDebut, tempsRedemarrage, stop, arrete, i, tempsRedemarrage, tempsDebut, temps, frameRedemarre, valeur, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('R-bg-Spring-3');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nsimulation = fx(3).value;\nspeedLimit = 0.1;\nif (damping == 0)\n    damping = 0.01;\nif (elasticity == 0)\n    elasticity = 0.01;\nretard = $bm_div(elasticity, damping);\npoids = $bm_div($bm_div(1, damping), 10);\nprecision = thisComp.frameDuration;\nvar result = value;\nfunction worldVelocity(temps) {\n    var worldVelocityX, worldVelocityY;\n    worldVelocityX = $bm_mul($bm_sub(thisLayer.toWorld(value, temps)[0], thisLayer.toWorld(value, $bm_sub(temps, 0.01))[0]), 100);\n    worldVelocityY = $bm_mul($bm_sub(thisLayer.toWorld(value, temps)[1], thisLayer.toWorld(value, $bm_sub(temps, 0.01))[1]), 100);\n    return [\n        worldVelocityX,\n        worldVelocityY\n    ];\n}\nfunction worldSpeed(temps) {\n    return length(worldVelocity(temps));\n}\nif (simulation == 2) {\n    tempsDebut = 0;\n    tempsRedemarrage = 0;\n    stop = false;\n    arrete = false;\n    for (i = timeToFrames(time); i >= 0; i--) {\n        var instant = framesToTime(i);\n        var instantSuivant = $bm_sub(instant, precision);\n        if (worldSpeed(instant) == 0) {\n            if (tempsRedemarrage == 0)\n                tempsRedemarrage = instant;\n            if (worldSpeed(instantSuivant) != 0) {\n                tempsDebut = instantSuivant;\n                break;\n            }\n        }\n    }\n    temps = $bm_sub(time, tempsDebut);\n    frameRedemarre = timeToFrames($bm_sub(time, tempsRedemarrage));\n    valeur = value;\n    if (frameRedemarre <= retard)\n        result = $bm_sub(value, $bm_mul($bm_mul(worldVelocity(time), poids), $bm_div(frameRedemarre, retard)));\n    else\n        result = $bm_sub(value, $bm_mul(worldVelocity(time), poids));\n    if (worldSpeed(time) == 0) {\n        result = $bm_sum(result, $bm_mul(worldVelocity(tempsDebut), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping)))));\n    }\n} else if (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    result = $bm_sum(valueAtTime(tempsDebut), spring);\n}\n$bm_rt = result;"
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 9,
+                    "s": [
+                      100,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 15
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('R-bg-Spring-1');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 9,
+                    "s": [
+                      5
+                    ],
+                    "e": [
+                      0
+                    ]
+                  },
+                  {
+                    "t": 15
+                  }
+                ],
+                "ix": 6,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('R-bg-Spring-2');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "R_bg",
+          "np": 2,
+          "cix": 2,
+          "bm": 0,
+          "ix": 7,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0.148,
+                      24.27
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      -7.028,
+                      0
+                    ],
+                    [
+                      0,
+                      5.353
+                    ],
+                    [
+                      13.909,
+                      3.927
+                    ],
+                    [
+                      0,
+                      15.705
+                    ],
+                    [
+                      -19.179,
+                      0
+                    ],
+                    [
+                      -0.291,
+                      -20.346
+                    ],
+                    [
+                      13.619,
+                      -0.534
+                    ],
+                    [
+                      6.294,
+                      0
+                    ],
+                    [
+                      0,
+                      -4.103
+                    ],
+                    [
+                      -12.298,
+                      -3.749
+                    ],
+                    [
+                      0,
+                      -13.564
+                    ],
+                    [
+                      17.42,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0.143,
+                      10.529
+                    ],
+                    [
+                      4.683,
+                      0
+                    ],
+                    [
+                      0,
+                      -5.176
+                    ],
+                    [
+                      -16.399,
+                      -4.637
+                    ],
+                    [
+                      0,
+                      -15.883
+                    ],
+                    [
+                      20.934,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      -0.147,
+                      -9.279
+                    ],
+                    [
+                      -5.565,
+                      0
+                    ],
+                    [
+                      0,
+                      5.71
+                    ],
+                    [
+                      19.618,
+                      5.888
+                    ],
+                    [
+                      0,
+                      19.809
+                    ],
+                    [
+                      -20.203,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -31.915,
+                      12.939
+                    ],
+                    [
+                      -9.661,
+                      13.473
+                    ],
+                    [
+                      1.173,
+                      28.821
+                    ],
+                    [
+                      9.223,
+                      20.611
+                    ],
+                    [
+                      -7.319,
+                      8.297
+                    ],
+                    [
+                      -31.038,
+                      -21.148
+                    ],
+                    [
+                      -0.877,
+                      -48.452
+                    ],
+                    [
+                      30.891,
+                      -13.473
+                    ],
+                    [
+                      9.37,
+                      -13.12
+                    ],
+                    [
+                      -0.438,
+                      -28.465
+                    ],
+                    [
+                      -8.492,
+                      -20.613
+                    ],
+                    [
+                      7.029,
+                      -7.762
+                    ],
+                    [
+                      31.915,
+                      19.899
+                    ],
+                    [
+                      1.173,
+                      48.452
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.083082012102,
+                  0.120809570013,
+                  0.500466350481,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  336.651,
+                  83.788
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 0,
+                    "s": [
+                      0,
+                      50
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 6
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('S-Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 0,
+                    "s": [
+                      -53
+                    ],
+                    "e": [
+                      0
+                    ]
+                  },
+                  {
+                    "t": 6
+                  }
+                ],
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "S",
+          "np": 2,
+          "cix": 2,
+          "bm": 0,
+          "ix": 8,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      20.166
+                    ],
+                    [
+                      7.029,
+                      0
+                    ],
+                    [
+                      0,
+                      -18.559
+                    ],
+                    [
+                      -7.763,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      -18.379
+                    ],
+                    [
+                      -7.319,
+                      0
+                    ],
+                    [
+                      0,
+                      19.632
+                    ],
+                    [
+                      7.024,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      10.395,
+                      -12.865
+                    ],
+                    [
+                      -0.439,
+                      -41.418
+                    ],
+                    [
+                      -11.568,
+                      -12.865
+                    ],
+                    [
+                      -0.291,
+                      15.689
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ind": 1,
+              "ty": "sh",
+              "ix": 2,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      -3.391
+                    ],
+                    [
+                      -9.956,
+                      0
+                    ],
+                    [
+                      0,
+                      -26.592
+                    ],
+                    [
+                      16.689,
+                      0
+                    ],
+                    [
+                      4.096,
+                      7.495
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      6.738,
+                      0.176
+                    ],
+                    [
+                      -0.148,
+                      5.353
+                    ],
+                    [
+                      4.535,
+                      -9.282
+                    ],
+                    [
+                      18.155,
+                      0
+                    ],
+                    [
+                      0,
+                      31.052
+                    ],
+                    [
+                      -7.758,
+                      0
+                    ],
+                    [
+                      0,
+                      23.756
+                    ],
+                    [
+                      -10.834,
+                      -0.538
+                    ],
+                    [
+                      0.439,
+                      -61.925
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -35.139,
+                      -56.762
+                    ],
+                    [
+                      -14.787,
+                      -56.943
+                    ],
+                    [
+                      -15.078,
+                      -45.342
+                    ],
+                    [
+                      6.88,
+                      -60.335
+                    ],
+                    [
+                      35.139,
+                      -12.684
+                    ],
+                    [
+                      6.733,
+                      33.893
+                    ],
+                    [
+                      -12.15,
+                      22.829
+                    ],
+                    [
+                      -10.686,
+                      60.158
+                    ],
+                    [
+                      -35.139,
+                      60.335
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 2",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "mm",
+              "mm": 1,
+              "nm": "Merge Paths 1",
+              "mn": "ADBE Vector Filter - Merge",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.999999940162,
+                  0.999999940162,
+                  1,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  427.686,
+                  96.74
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 16.5,
+                    "s": [
+                      0,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 22.5
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('P-Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "P",
+          "np": 4,
+          "cix": 2,
+          "bm": 0,
+          "ix": 9,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -44.518,
+                      -69.903
+                    ],
+                    [
+                      -46.268,
+                      75.811
+                    ],
+                    [
+                      44.019,
+                      77.877
+                    ],
+                    [
+                      46.268,
+                      -77.877
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.301033289292,
+                  0.642304005342,
+                  0.796574491613,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  427.136,
+                  168.721
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  76.455
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 16.5,
+                    "s": [
+                      100,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 22.5
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('P-bg-Spring-1');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "P_bg",
+          "np": 2,
+          "cix": 2,
+          "bm": 0,
+          "ix": 10,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0.438,
+                      43.188
+                    ],
+                    [
+                      -13.323,
+                      0.358
+                    ],
+                    [
+                      0,
+                      -8.922
+                    ],
+                    [
+                      -12.298,
+                      -0.892
+                    ],
+                    [
+                      0.296,
+                      -17.667
+                    ],
+                    [
+                      0.445,
+                      -21.416
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      15.812,
+                      -0.177
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      4.534,
+                      -12.313
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      -16.394,
+                      1.43
+                    ],
+                    [
+                      -0.291,
+                      13.386
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -23.28,
+                      -42.028
+                    ],
+                    [
+                      -3.953,
+                      -42.206
+                    ],
+                    [
+                      -4.244,
+                      -26.323
+                    ],
+                    [
+                      23.28,
+                      -45.417
+                    ],
+                    [
+                      22.545,
+                      -18.294
+                    ],
+                    [
+                      0.29,
+                      12.76
+                    ],
+                    [
+                      0.586,
+                      46.132
+                    ],
+                    [
+                      -23.132,
+                      46.309
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.004046026866,
+                  0.005336633851,
+                  0.012324501486,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  509.287,
+                  82.36
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 25.5,
+                    "s": [
+                      0,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 31.5
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('R-Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "R",
+          "np": 2,
+          "cix": 2,
+          "bm": 0,
+          "ix": 11,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      -8.207
+                    ],
+                    [
+                      -5.417,
+                      0
+                    ],
+                    [
+                      0,
+                      16.239
+                    ]
+                  ],
+                  "o": [
+                    [
+                      -14.496,
+                      -0.535
+                    ],
+                    [
+                      0,
+                      6.248
+                    ],
+                    [
+                      5.855,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      9.956,
+                      4.73
+                    ],
+                    [
+                      -9.661,
+                      19.005
+                    ],
+                    [
+                      -1.316,
+                      29
+                    ],
+                    [
+                      9.956,
+                      8.122
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ind": 1,
+              "ty": "sh",
+              "ix": 2,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      15.705
+                    ],
+                    [
+                      -28.698,
+                      -1.25
+                    ],
+                    [
+                      0.149,
+                      1.786
+                    ],
+                    [
+                      5.417,
+                      0
+                    ],
+                    [
+                      0.439,
+                      -9.103
+                    ],
+                    [
+                      13.319,
+                      0.537
+                    ],
+                    [
+                      -19.03,
+                      0
+                    ],
+                    [
+                      -0.44,
+                      -24.273
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      12.008,
+                      -0.177
+                    ],
+                    [
+                      -0.142,
+                      8.564
+                    ],
+                    [
+                      9.37,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      -19.986
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      -0.438,
+                      -9.991
+                    ],
+                    [
+                      -5.708,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0.582,
+                      -19.809
+                    ],
+                    [
+                      21.964,
+                      0
+                    ],
+                    [
+                      0.586,
+                      29.623
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      -4.391,
+                      9.995
+                    ],
+                    [
+                      -14.643,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -33.088,
+                      21.862
+                    ],
+                    [
+                      8.932,
+                      -9.01
+                    ],
+                    [
+                      8.783,
+                      -13.118
+                    ],
+                    [
+                      0.438,
+                      -27.927
+                    ],
+                    [
+                      -8.493,
+                      -13.294
+                    ],
+                    [
+                      -30.304,
+                      -14.009
+                    ],
+                    [
+                      0.877,
+                      -47.381
+                    ],
+                    [
+                      32.502,
+                      -9.545
+                    ],
+                    [
+                      32.649,
+                      47.204
+                    ],
+                    [
+                      13.613,
+                      47.381
+                    ],
+                    [
+                      14.2,
+                      33.283
+                    ],
+                    [
+                      -8.636,
+                      47.381
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 2",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "mm",
+              "mm": 1,
+              "nm": "Merge Paths 1",
+              "mn": "ADBE Vector Filter - Merge",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.999999940162,
+                  0.999999940162,
+                  1,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  584.429,
+                  83.787
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 4.5,
+                    "s": [
+                      0,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 10.5
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('A-Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "A",
+          "np": 4,
+          "cix": 2,
+          "bm": 0,
+          "ix": 12,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      -39.391,
+                      -70.372
+                    ],
+                    [
+                      -46.143,
+                      70.372
+                    ],
+                    [
+                      46.143,
+                      65.063
+                    ],
+                    [
+                      35.639,
+                      -63.145
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.004046026866,
+                  0.005336633851,
+                  0.012324501486,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  586.989,
+                  91.15
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 4.5,
+                    "s": [
+                      0,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 10.5
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('A-bg-Spring-2');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 4.5,
+                    "s": [
+                      78
+                    ],
+                    "e": [
+                      0
+                    ]
+                  },
+                  {
+                    "t": 10.5
+                  }
+                ],
+                "ix": 6,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('A-bg-Spring-3');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 4.5,
+                    "s": [
+                      54
+                    ],
+                    "e": [
+                      0
+                    ]
+                  },
+                  {
+                    "t": 10.5
+                  }
+                ],
+                "ix": 4,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, bounce, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('A-bg-Spring-1');\ndamping = fx(2).value;\nelasticity = fx(1).value;\nspeedLimit = 0.1;\nbounce = fx(3).value;\nvar result = value;\nif (numKeys > 1 && elasticity != 0 && nearestKey(time).index != 1 && length(velocity) <= speedLimit) {\n    tempsClefProx = nearestKey(time).time;\n    if (tempsClefProx <= time) {\n        tempsDebut = tempsClefProx;\n    } else {\n        tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n    }\n    temps = $bm_sub(time, tempsDebut);\n    spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n    if (speedLimit > 0)\n        spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n    if (!bounce)\n        result = $bm_sum(valueAtTime(tempsDebut), spring);\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) > valueAtTime(tempsDebut))\n        result = $bm_sum(valueAtTime(tempsDebut), Math.abs(spring));\n    if (bounce && valueAtTime(tempsDebut - thisComp.frameDuration) < valueAtTime(tempsDebut))\n        result = $bm_sub(valueAtTime(tempsDebut), Math.abs(spring));\n}\n$bm_rt = result;"
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "A_bg",
+          "np": 2,
+          "cix": 2,
+          "bm": 0,
+          "ix": 13,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        },
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0.282,
+                      -18.289
+                    ],
+                    [
+                      6.287,
+                      0
+                    ],
+                    [
+                      0.278,
+                      7.468
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      -0.696,
+                      -25.757
+                    ],
+                    [
+                      -12.575,
+                      0
+                    ],
+                    [
+                      -3.908,
+                      7.317
+                    ],
+                    [
+                      0.05,
+                      -5.852
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      5.162,
+                      -0.49
+                    ],
+                    [
+                      1.544,
+                      8.757
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      -0.015,
+                      -0.169
+                    ],
+                    [
+                      -20.007,
+                      1.898
+                    ],
+                    [
+                      -0.731,
+                      23.631
+                    ]
+                  ],
+                  "o": [
+                    [
+                      -0.56,
+                      -56.54
+                    ],
+                    [
+                      -13.831,
+                      0.306
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      -0.141,
+                      9.143
+                    ],
+                    [
+                      -5.028,
+                      0
+                    ],
+                    [
+                      -0.419,
+                      -23.317
+                    ],
+                    [
+                      -13.554,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0.559,
+                      15.85
+                    ],
+                    [
+                      9.218,
+                      0
+                    ],
+                    [
+                      0.052,
+                      7.592
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      11.283
+                    ],
+                    [
+                      -4.82,
+                      0.458
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0.015,
+                      0.171
+                    ],
+                    [
+                      2.167,
+                      21.097
+                    ],
+                    [
+                      18.546,
+                      -1.759
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      31.008,
+                      18.217
+                    ],
+                    [
+                      31.008,
+                      -58.572
+                    ],
+                    [
+                      8.378,
+                      -58.421
+                    ],
+                    [
+                      8.378,
+                      -22.708
+                    ],
+                    [
+                      -1.399,
+                      -6.708
+                    ],
+                    [
+                      -8.383,
+                      -18.137
+                    ],
+                    [
+                      -8.242,
+                      -52.268
+                    ],
+                    [
+                      -30.454,
+                      -52.572
+                    ],
+                    [
+                      -30.317,
+                      -11.279
+                    ],
+                    [
+                      -10.617,
+                      14.479
+                    ],
+                    [
+                      9.215,
+                      2.285
+                    ],
+                    [
+                      9.192,
+                      18.217
+                    ],
+                    [
+                      9.182,
+                      22.751
+                    ],
+                    [
+                      1.307,
+                      36.529
+                    ],
+                    [
+                      -8.44,
+                      25.271
+                    ],
+                    [
+                      -29.95,
+                      23.857
+                    ],
+                    [
+                      -29.918,
+                      26.654
+                    ],
+                    [
+                      3.115,
+                      56.674
+                    ],
+                    [
+                      31.013,
+                      22.751
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "Path 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.28990762748,
+                  0.126251759249,
+                  0.545773076076,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  672.857,
+                  86.874
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667,
+                        0.667
+                      ],
+                      "y": [
+                        1,
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333,
+                        0.333
+                      ],
+                      "y": [
+                        0,
+                        0
+                      ]
+                    },
+                    "t": 31,
+                    "s": [
+                      100,
+                      0
+                    ],
+                    "e": [
+                      100,
+                      100
+                    ]
+                  },
+                  {
+                    "t": 37
+                  }
+                ],
+                "ix": 3,
+                "x": "var $bm_rt;\nvar damping, elasticity, speedLimit, tempsClefProx, tempsDebut, tempsDebut, temps, spring, spring;\nvar fx = effect('Y-Spring');\ndamping = fx(2).value;\nelasticity = fx(1).value;\n$bm_rt = speedLimit = 0.1;\nif (numKeys > 1 && elasticity != 0) {\n    if (nearestKey(time).index == 1) {\n        $bm_rt = value;\n    } else {\n        if (length(velocity) <= speedLimit) {\n            tempsClefProx = nearestKey(time).time;\n            if (tempsClefProx <= time) {\n                tempsDebut = tempsClefProx;\n            } else {\n                tempsDebut = key($bm_sub(nearestKey(time).index, 1)).time;\n            }\n            temps = $bm_sub(time, tempsDebut);\n            spring = $bm_mul(velocityAtTime($bm_sub(tempsDebut, thisComp.frameDuration)), $bm_div($bm_mul($bm_div(0.15, elasticity), Math.sin($bm_mul($bm_mul($bm_mul(elasticity, temps), 2), Math.PI))), Math.exp($bm_mul(temps, damping))));\n            if (speedLimit > 0)\n                spring = $bm_mul(spring, $bm_sub(1, $bm_div(length(velocity), speedLimit)));\n            $bm_rt = $bm_sum(valueAtTime(tempsDebut), spring);\n        } else {\n            $bm_rt = value;\n        }\n    }\n} else {\n    $bm_rt = value;\n}"
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 31,
+                    "s": [
+                      -54
+                    ],
+                    "e": [
+                      0
+                    ]
+                  },
+                  {
+                    "t": 37
+                  }
+                ],
+                "ix": 4
+              },
+              "sa": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.667
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.333
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 31,
+                    "s": [
+                      33.25
+                    ],
+                    "e": [
+                      0
+                    ]
+                  },
+                  {
+                    "t": 37
+                  }
+                ],
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "Y",
+          "np": 4,
+          "cix": 2,
+          "bm": 0,
+          "ix": 14,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        }
+      ],
+      "ip": 0,
+      "op": 125,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}

@@ -1,9 +1,9 @@
 module.exports = {
     siteMetadata: {
-        title: `Sue Hyman Official Website`,
+        title: `Hairspray The Musical`,
         description: `Sue Hyman`,
         author: ``,
-        siteUrl: `https://suehyman.com/`
+        siteUrl: `https://hairspraythemusical.co.uk/`
     },
     plugins: [
         'gatsby-plugin-resolve-src',
@@ -41,8 +41,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Sue Hyman Official Website`,
-                short_name: `Sue Hyman`,
+                name: `Hairspray The Musical`,
+                short_name: `Hairspray`,
                 start_url: `/`,
                 icon: `src/images/favicon.jpg`, // This path is relative to the root of the site.
                 "theme_color": "#ffffff",
@@ -53,7 +53,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-canonical-urls`,
             options: {
-                siteUrl: 'https://suehyman.com/'
+                siteUrl: 'https://hairspraythemusical.co.uk/'
             },
         },
         {

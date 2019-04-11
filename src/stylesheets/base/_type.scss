@@ -1,9 +1,9 @@
 * {
-    font-family: "Avenir-Book", Arial, sans-serif;
+    font-family: "Proxima Nova W05 Regular", Arial, sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: "Avenir-Black", Arial, sans-serif;
+    font-family: "Proxima Nova W05 Regular", Arial, sans-serif;
 }
 
 h1 {
@@ -20,73 +20,23 @@ h3 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 1.125rem;
     line-height: normal;
+    font-family: "Proxima Nova W05 Light", Arial, sans-serif;
 
     @include media-breakpoint-up(sm) {
-        font-size: 1.25rem;
-        line-height: 1.5;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
     }
 }
 
 .text {
-    &--smaller {
-        font-size: 0.75rem;
-        line-height: normal;
-    }
-
     &--small {
-        font-size: 0.875rem;
-        line-height: normal;
-    }
-
-    &--basic {
         font-size: 0.875rem;
         line-height: normal;
 
         @include media-breakpoint-up(sm) {
             font-size: 1rem;
         }
-    }
-
-    &--big {
-        font-size: 1.125rem;
-        line-height: normal;
-
-        @include media-breakpoint-up(sm) {
-            font-size: 1.5rem;
-        }
-
-        @include media-breakpoint-up(xl) {
-            font-size: 1.75rem;
-        }
-    }
-
-    &--huge {
-        font-size: 1.5rem;
-        line-height: 2rem;
-
-        @include media-breakpoint-up(sm) {
-            font-size: 2rem;
-            line-height: 2.5rem;
-        }
-
-        @include media-breakpoint-up(xl) {
-            font-size: 2.25rem;
-        }
-    }
-
-    &--red {
-        color: $big-red;
-    }
-
-    &--bold {
-        font-family: "Avenir-Black", Arial, sans-serif;
-    }
-}
-
-.letter-spacing{
-    &--1 {
-        letter-spacing: 0.1em;
     }
 }

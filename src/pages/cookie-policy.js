@@ -4,8 +4,8 @@ import {Link} from 'gatsby'
 import Layout from '../components/Layout'
 
 const headData = {
-    title: 'BIG The Musical | Official Site',
-    description: 'The official website Big The Musical. Based on the smash-hit film BIG opens September 2019 at the Dominion Theatre for 9 weeks only starring Jay McGuiness.',
+    title: 'Hairspray The Musical | Official Site',
+    description: '',
 };
 
 const Privacy = () => (
@@ -14,7 +14,7 @@ const Privacy = () => (
             <div className="PrivacyPage__content">
                 <Container fluid={true} className="py-4">
                     <Container>
-
+                        <h1 className="pb-4">Cookie Policy</h1>
                         <p><strong>Cookies and how they benefit you:</strong></p>
                         <p>Our website uses cookies, as almost all websites do, to help provide you with the best experience we can.
                             Cookies are small text files that are placed on your computer or mobile phone when you browse
@@ -60,9 +60,9 @@ const Privacy = () => (
                             use these adverts to encourage you to come back to our site. Don’t worry - we are unable to proactively
                             reach out to you as the whole process is entirely anonymised. These help us understand how well our
                             online adverts are encouraging browsers to view more
-                            information about particular events on www.somethingbiglondon.co.uk and when an advert is displayed
+                            information about particular events on HairsprayTheMusical.co.uk and when an advert is displayed
                             on a third-party website, a Sizmek / Doubleclick cookie is placed on their machine, providing this
-                            is enabled by their browser settings. If that browser then visits www.somethingbiglondon.co.uk, we
+                            is enabled by their browser settings. If that browser then visits HairsprayTheMusical.co.uk, we
                             can see that the advert has been effective. More information about Sizmek’s or Doubleclick’s own
                             privacy policy and how to opt out can be found here on the <a className="color-red"
                                                                                           href="https://www.sizmek.com/"
