@@ -24,15 +24,16 @@ class Layout extends Component {
                 <CookieConsent
                     location="bottom"
                     disableStyles={true}
-                    buttonText="Accept cookies"
+                    buttonText="Close"
                     cookieName="bcookie"
                     containerClasses="cookie"
                     contentClasses="cookieContent"
-                    buttonClasses="btn btn--red"
+                    buttonClasses="btn btn--close"
                     expires={150}
                 >
-                    <p className="text--basic">We use cookies to help make this website better. For more information on cookies and how we use
-                        them, please see our <Link className="link link--pink" to="/cookie-policy/">cookies page</Link>.<br/>
+                    <p className="text--small">
+                        We use cookies to help make this website better. For more information on cookies and how we use
+                        them, please see our <Link className="link link--pink" to="/cookie-policy/">cookies page</Link>.<br/><br/>
                         Otherwise, we’ll assume you’re OK to continue.</p>
                 </CookieConsent>
 

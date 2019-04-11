@@ -1,24 +1,25 @@
 .cookieConsent {
-  background: black;
+  background: url('../images/cookie-bg.svg') no-repeat center center;
+  background-size: contain;
   color: white;
-  left: 50%;
-  transform: translateX(-50%);
   position: fixed;
   width: 100%;
   z-index: 999;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: $spacer;
-  max-width: $containter-content-max;
+  bottom: 0 !important;
+  right: 0;
+  padding: 2rem 2rem 0;
+  max-width: 368px;
+  text-align: center;
+
+  @include media-breakpoint-up(sm) {
+    //bottom: 1rem !important;
+    right: 1rem;
+    padding: 2rem;
+  }
 
   p {
     color: white;
-  }
-
-  button {
-    flex: 0 0 auto;
+    font-family: "Proxima Nova W05 Regular", Arial, sans-serif;
   }
 
   @include media-breakpoint-down(xs) {
@@ -27,7 +28,6 @@
   }
 
   .cookieContent {
-    flex: 1 0 300px;
     margin: 0;
     padding: 0.5rem;
 

@@ -17,7 +17,7 @@ const headData = {
 }
 
 const lottieOptions = {
-    loop: true,
+    loop: false,
     autoplay: true,
     renderer: 'svg',
     animationData: animationData.default,
@@ -86,6 +86,11 @@ class IndexPage extends Component {
                                 </button>
                             </Container>
                         </Container>
+                        <Container fluid={true} className="pt-4 py-sm-4">
+                            <Container>
+                                <p>The original award-winning production directed by Jack O’Brien and choreographed by Jerry Mitchell</p>
+                            </Container>
+                        </Container>
                         <Container fluid={true} className="py-4">
                             <Container>
                                 <div className="d-block d-lg-none">
@@ -98,6 +103,7 @@ class IndexPage extends Component {
                                 </div>
                                 <p>Lyrics by Scott Wittman <br className="d-sm-none" />
                                     and Marc Shaiman</p>
+                                <p className="text--normal">Based on the John Waters film</p>
                             </Container>
                         </Container>
                         <Container fluid={true} className="py-4">

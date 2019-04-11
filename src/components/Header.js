@@ -6,7 +6,7 @@ class Header extends Component {
             <div className="header">
                 <ul className="header__links--social">
                     <li>
-                        <a href="" target="_blank" rel="noopener noreferrer"
+                        <a href="https://twitter.com/hairspraylondon" target="_blank" rel="noopener noreferrer"
                            className="icon icon-twitter">
                             <div className="btn-social twitter">
                                 <span className="sr-only">Twitter</span>
@@ -14,7 +14,7 @@ class Header extends Component {
                         </a>
                     </li>
                     <li>
-                        <a href="" target="_blank"
+                        <a href="https://www.facebook.com/Hairspray-London-347007716161797/" target="_blank"
                            rel="noopener noreferrer" className="icon icon-facebook">
                             <div className="btn-social facebook">
                                 <span className="sr-only">Facebook</span>

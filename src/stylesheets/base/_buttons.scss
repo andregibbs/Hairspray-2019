@@ -26,5 +26,23 @@
             line-height: 2.75rem;
         }
     }
+
+    &--close {
+        width: 140px;
+        background: url('../images/buttons/btn.svg') no-repeat center center;
+        background-size: contain;
+        padding: 6px 10px;
+        border: none;
+        font-size: 1.5rem;
+        color: white;
+        font-family: "Proxima Nova W05 Bold", Arial, sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        @include media-breakpoint-up(md) {
+            font-size: 2.25rem;
+            width: 200px;
+        }
+    }
 }
 
