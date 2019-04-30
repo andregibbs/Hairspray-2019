@@ -1,4 +1,12 @@
 .HomePage {
     color: black;
     text-align: center;
+
+    .starring, .limitedSeason {
+        max-height: 96px;
+
+        @include media-breakpoint-up(lg) {
+            max-height: 200px;
+        }
+    }
 }

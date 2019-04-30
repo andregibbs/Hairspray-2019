@@ -55,8 +55,12 @@ a {
 }
 
 .container {
-    @include media-breakpoint-down(xs) {
-        //padding-left: 0;
-        //padding-right: 0;
+
+    &-pink {
+        background-color: $project-pink;
+
+        * {
+            color: white;
+        }
     }
 }

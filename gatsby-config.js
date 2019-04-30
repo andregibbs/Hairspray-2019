@@ -20,24 +20,18 @@ module.exports = {
         {
             resolve: `gatsby-source-filesystem`,
             options: {
-                path: `${__dirname}/src/data/`,
-            },
-        },
-        {
-            resolve: `gatsby-source-filesystem`,
-            options: {
                 path: `${__dirname}/src/images`,
                 name: 'images',
             },
         },
-        // {
-        //     resolve: `gatsby-plugin-google-tagmanager`,
-        //     options: {
-        //         id: "GTM-N4NHT83",
-        //
-        //         includeInDevelopment: false,
-        //     },
-        // },
+        {
+            resolve: `gatsby-plugin-google-tagmanager`,
+            options: {
+                id: "GTM-NWNR8M5",
+
+                includeInDevelopment: false,
+            },
+        },
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
