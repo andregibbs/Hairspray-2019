@@ -5,7 +5,7 @@ import {Link, navigate} from 'gatsby'
 import signUpTitle from 'images/sign-up-title.svg'
 import signUpTitleXs from 'images/sign-up-title-xs.svg'
 
-const url = "https://dewynters.us1.list-manage.com/subscribe/post?u=2f36c1eba84f0edbfa535ad91&id=d29e33b602";
+const url = "https://dewynters.us1.list-manage.com/subscribe/post?u=2f36c1eba84f0edbfa535ad91&id=93985861d5";
 
 class SignUpForm extends Component {
     constructor(props) {

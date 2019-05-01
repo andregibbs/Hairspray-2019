@@ -6,12 +6,8 @@ h1, h2, h3 {
     font-family: "Proxima Nova W05 Regular", Arial, sans-serif;
 }
 
-h1 {
-    letter-spacing: 0.2em;
-}
 
 h3 {
-    letter-spacing: 0.1em;
     font-size: 1.25rem;
 
     @include media-breakpoint-up(sm) {
@@ -47,5 +43,9 @@ p {
         @include media-breakpoint-up(sm) {
             font-size: 1.125rem;
         }
+    }
+
+    &--faded {
+        color: $project-light-pink;
     }
 }

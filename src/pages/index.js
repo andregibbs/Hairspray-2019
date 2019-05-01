@@ -20,8 +20,8 @@ import mainImgLg from 'images/Image-desktop.jpg'
 import {Link} from 'gatsby'
 
 const headData = {
-    title: 'Hairspray The Musical | Official Site',
-    description: '',
+    title: 'Hairspray: The Award-winning Musical | Official London Site',
+    description: 'Michael Ball is back to shake up the West End. From April for 12 weeks only. Book now!',
 }
 
 const lottieOptions = {
@@ -58,9 +58,12 @@ class IndexPage extends Component {
         return (
             <Layout
                 headData={headData}
+                displayLogo={false}
             >
                 <section className="page HomePage">
                     <div className="HomePage__content">
+                        <h1 className="sr-only">Hairspray The Musical</h1>
+                        <h2 className="sr-only">She is back to shake up the West end</h2>
                         <Container fluid={true} className="pt-4 pb-1 mb-n5">
                             <Container>
                                 <img src={sheIsBack} className="img-fluid" alt="She is back to shake up the West end"
@@ -95,7 +98,7 @@ class IndexPage extends Component {
                                         <a
                                             href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
                                             target="_blank" rel="noreferrer noopener"
-                                            className="btn btn--book-now mt-3">
+                                            className="btn btn--book-now mt-3 mt-lg-4">
                                             Book now
                                         </a>
                                     </Col>
@@ -109,7 +112,7 @@ class IndexPage extends Component {
                             <a
                                 href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
                                 target="_blank" rel="noreferrer noopener"
-                                className="btn btn--book-now mt-n1 d-sm-none">
+                                className="btn btn--book-now mt-n2 d-sm-none">
                                 Book now
                             </a>
                             <div className="d-none d-xl-block px-3">
@@ -134,7 +137,7 @@ class IndexPage extends Component {
                                         <a
                                             href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
                                             target="_blank" rel="noreferrer noopener"
-                                            className="btn btn--book-now mt-3">
+                                            className="btn btn--book-now mt-4">
                                             Book now
                                         </a>
                                     </Col>
@@ -184,7 +187,10 @@ class IndexPage extends Component {
                         </Container>
                         <Container fluid={true} className="footer pb-4">
                             <Container>
-                                <img src={coliseum} alt="London Coliseum" className="img-fluid coliseum"/>
+                                <a href="https://www.londoncoliseum.org/whats-on/hairspray/" target="_blank" rel="noreferrer noopener">
+                                    <img src={coliseum} alt="London Coliseum" className="img-fluid coliseum"/>
+                                    <span className="sr-only">London Coliseum</span>
+                                </a>
 
                                 <p className="text--small">© 2019 Hairspray - All Rights Reserved</p>
 

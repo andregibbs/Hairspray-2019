@@ -108,7 +108,7 @@ class Layout extends Component {
                 `,
                     }}
                 />
-                <Header/>
+                <Header displayLogo={this.props.displayLogo}/>
                 {children}
             </>
         )

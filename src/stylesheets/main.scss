@@ -24,8 +24,11 @@ $grid-breakpoints: (
 @import 'components/cookie';
 @import 'components/footer';
 @import 'components/header';
+@import 'components/nav';
 @import 'components/page';
 @import 'components/signUpModal';
+@import 'components/socialIcon';
 // Page
 @import 'components/HomePage';
 @import 'components/PrivacyPage';
+@import 'components/TicketInfoPage';

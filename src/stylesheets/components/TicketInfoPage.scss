@@ -1,0 +1,75 @@
+.TicketInfoPage {
+    h1 {
+        color: $project-pink;
+        text-transform: uppercase;
+        font-family: "Proxima Nova W05 Black", Arial, sans-serif;
+        text-align: center;
+        font-size: 2.25rem;
+        line-height: 2rem;
+        letter-spacing: 0;
+
+        @include media-breakpoint-up(xl) {
+            font-size: 4rem;
+        }
+    }
+
+    h3 {
+        color: $project-pink;
+        text-transform: uppercase;
+        font-family: "Proxima Nova W05 Bold", Arial, sans-serif;
+        text-align: center;
+        letter-spacing: 0;
+    }
+
+    .container-pink-shape {
+        background: $project-pink;
+        padding: 2rem 1rem;
+        color: white;
+
+        @include media-breakpoint-up(xxl) {
+            padding: 4rem 2rem;
+            background: url('../images/pink-shape.svg') center center no-repeat;
+            background-size: 100%;
+        }
+
+        p {
+            margin: 0;
+            font-size: 1.5rem;
+            line-height: 1.75rem;
+        }
+
+        .book-title {
+            font-family: "Proxima Nova W05 Black", Arial, sans-serif;
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .btn--book-now, .btn--ticketmaster, .btn--call, .btn--person {
+        padding: 5px 0 8px 50px;
+
+        @include media-breakpoint-up(sm) {
+            font-size: 1.65rem;
+        }
+
+        @include media-breakpoint-up(lg) {
+            padding: 10px 0 10px 50px;
+        }
+
+        @include media-breakpoint-up(lg) {
+            padding: 10px 0 10px 40px;
+        }
+
+        &:before {
+            @include media-breakpoint-up(xl) {
+                left: 5px;
+            }
+        }
+
+        &:hover {
+            background: url('../images/buttons/book-now-rectangle-hover-black.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}

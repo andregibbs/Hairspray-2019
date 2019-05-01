@@ -22,7 +22,7 @@ const PrivacyPolicy = () => (
                         <p>This policy was last updated on 26/03/2019. Any future changes to our policy will be reflected <Link to="/cookie-policy/">here</Link>.</p>
 
                         <p><strong>Contacting us</strong></p>
-                        <p>Questions, comments and requests regarding this privacy policy are welcomed and should be addressed by email to <a href="mailto:info@dewynters.com">info@dewynters.com</a></p>
+                        <p>Questions, comments and requests regarding this privacy policy are welcomed and should be addressed by email to <a href="mailto:gdpr@hairspraythemusical.co.uk">gdpr@hairspraythemusical.co.uk</a></p>
 
                         <p><strong>What Does This Policy Cover?</strong></p>
                         <p>We process your personal information gathered on this website in order to tailor our marketing to your needs and to improve our website for future customers.  The specific purposes for which we may process information, and the lawful basis on which we do so in each case, are set out below.</p>
@@ -44,15 +44,15 @@ const PrivacyPolicy = () => (
                         <p>We want to be transparent about how we process your data and to ensure that you can exercise your legal rights:</p>
                         <ul>
                             <li>To be informed – via this Privacy Policy which sets out how we collect and process data</li>
-                            <li>To access your data – please contact <a href="mailto:info@dewynters.com">info@dewynters.com</a> if you wish to confirm what data we hold about you</li>
-                            <li>To have your data corrected - please contact <a href="mailto:info@dewynters.com">info@dewynters.com</a> if you feel that data held is incorrect and want this rectified</li>
-                            <li>To have processing of your data ceased - please contact <a href="mailto:info@dewynters.com">info@dewynters.com</a> if you wish us to cease processing your data without erasing it</li>
-                            <li>To have your data erased – please contact <a href="mailto:info@dewynters.com">info@dewynters.com</a> to request deletion of data that we hold about you</li>
+                            <li>To access your data – please contact <a href="mailto:gdpr@hairspraythemusical.co.uk">gdpr@hairspraythemusical.co.uk</a> if you wish to confirm what data we hold about you</li>
+                            <li>To have your data corrected - please contact <a href="mailto:gdpr@hairspraythemusical.co.uk">gdpr@hairspraythemusical.co.uk</a> if you feel that data held is incorrect and want this rectified</li>
+                            <li>To have processing of your data ceased - please contact <a href="mailto:gdpr@hairspraythemusical.co.uk">gdpr@hairspraythemusical.co.uk</a> if you wish us to cease processing your data without erasing it</li>
+                            <li>To have your data erased – please contact <a href="mailto:gdpr@hairspraythemusical.co.uk">gdpr@hairspraythemusical.co.uk</a> to request deletion of data that we hold about you</li>
                             <li>To data portability – we process data only to personalise our services to you so do not consider it appropriate to pass your data to other organisations. Some banks and utilities offer facilities to switch accounts, but this is not applicable to our business.</li>
-                            <li>To object to processing of your data on the basis of legitimate interest or for statistical purposes – please contact <a href="mailto:info@dewynters.com">info@dewynters.com</a>, or amend your cookie settings.</li>
+                            <li>To object to processing of your data on the basis of legitimate interest or for statistical purposes – please contact <a href="mailto:gdpr@hairspraythemusical.co.uk">gdpr@hairspraythemusical.co.uk</a>, or amend your cookie settings.</li>
                         </ul>
                         <p><strong>Complaints</strong></p>
-                        <p>To exercise all relevant rights, queries of complaints please in the first instance contact <a href="mailto:info@dewynters.com">info@dewynters.com</a></p>
+                        <p>To exercise all relevant rights, queries of complaints please in the first instance contact <a href="mailto:gdpr@hairspraythemusical.co.uk">gdpr@hairspraythemusical.co.uk</a></p>
                         <p>You can contact the Information Commissioners Office on 0303 123 1113 or via email <a href="https://ico.org.uk/global/contact-us/email/">https://ico.org.uk/global/contact-us/email/</a> or at the Information Commissioner's Office, Wycliffe House, Water Lane, Wilmslow, Cheshire. SK9 5AF.</p>
 
                         <Link to="/">Back to home</Link>
