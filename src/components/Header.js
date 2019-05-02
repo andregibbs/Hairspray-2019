@@ -63,7 +63,7 @@ class Header extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href="" target="_blank" rel="noopener noreferrer"
+                            <a href="https://www.instagram.com/HairsprayLondon/" target="_blank" rel="noopener noreferrer"
                                className="socialIcon socialIcon-instagram">
                                 <div className="btn-social instagram">
                                     <span className="sr-only">Instagram</span>

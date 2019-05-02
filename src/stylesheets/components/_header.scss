@@ -8,10 +8,12 @@
     padding: 0;
     transition: $transition-base;
     z-index: 501;
+    min-height: 70px;
 
     &.collapsed {
         background-color: white;
     }
+
     &__links {
         &--social {
             list-style: none;

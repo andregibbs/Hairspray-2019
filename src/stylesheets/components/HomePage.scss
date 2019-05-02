@@ -2,6 +2,19 @@
     color: black;
     text-align: center;
 
+    .sheIsBack, .logo {
+        width: 100%;
+        max-width: 650px;
+
+        @include media-breakpoint-up(xxl) {
+            max-width: 800px;
+        }
+
+        @include media-breakpoint-up(xxxl) {
+            max-width: initial;
+        }
+    }
+
     .starring, .limitedSeason {
         max-height: 96px;
 

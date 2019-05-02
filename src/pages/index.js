@@ -4,11 +4,9 @@ import {Container, Row, Col, Modal, ModalHeader, ModalBody} from 'reactstrap'
 import 'react-image-lightbox/style.css'
 import Lottie from 'react-lottie'
 import * as animationData from 'lottie/data.json'
-import copyLg from 'images/copy-lg.svg'
-import copySm from 'images/copy-sm.svg'
-import copyXs from 'images/copy-xs.svg'
-import SignUpForm from '../components/SignUpForm'
-import coliseum from 'images/London-Coliseum.svg'
+import SignUpForm from 'components/SignUpForm'
+import Footer from 'components/Footer'
+import YoutubeModal from 'components/YoutubeModal/YoutubeModal'
 import sheIsBack from 'images/she-is-back.svg'
 import starringXs from 'images/starring-xs.svg'
 import starring from 'images/starring.svg'
@@ -17,7 +15,6 @@ import limitedSeason from 'images/limited-season.svg'
 import mainImgXs from 'images/Image-mobile.jpg'
 import mainImgSm from 'images/Image-tablet.jpg'
 import mainImgLg from 'images/Image-desktop.jpg'
-import {Link} from 'gatsby'
 
 const headData = {
     title: 'Hairspray: The Award-winning Musical | Official London Site',
@@ -37,8 +34,9 @@ class IndexPage extends Component {
         super(props);
 
         this.state = {
-            isOpen: false,
             modalOpen: false,
+            videoModalOpen: false,
+            videoId: 'JJnOJFI-0n8',
         }
     }
 
@@ -52,8 +50,15 @@ class IndexPage extends Component {
         });
     };
 
+    toggleVideoModal = (e) => {
+        e.preventDefault();
+        this.setState({
+            videoModalOpen: !this.state.videoModalOpen
+        });
+    };
+
     render() {
-        const {modalOpen} = this.state
+        const {modalOpen, videoModalOpen, videoId} = this.state
 
         return (
             <Layout
@@ -64,18 +69,18 @@ class IndexPage extends Component {
                     <div className="HomePage__content">
                         <h1 className="sr-only">Hairspray The Musical</h1>
                         <h2 className="sr-only">She is back to shake up the West end</h2>
-                        <Container fluid={true} className="pt-4 pb-1 mb-n5">
+                        <Container fluid={true} className="pb-1 mb-n5">
                             <Container>
-                                <img src={sheIsBack} className="img-fluid" alt="She is back to shake up the West end"
+                                <img src={sheIsBack} className="img-fluid sheIsBack" alt="She is back to shake up the West end"
                                      title="She is back to shake up the West end"/>
                             </Container>
                         </Container>
-                        <div className="py-4">
+                        <div className="pt-4 logo mx-auto">
                             <Lottie options={lottieOptions}
-                                    className="img-fluid logo"
+                                    className="img-fluid"
                             />
                         </div>
-                        <Container fluid={true} className="pb-2 pt-1 mt-n5">
+                        <Container fluid={true} className="pb-2 pt-1 mt-n5 d-block d-sm-none">
                             <Container>
                                 <img src={starringXs} className="img-fluid mx-auto d-block d-sm-none"
                                      alt="Starring Michael Ball as Edna Turnblad"
@@ -86,7 +91,7 @@ class IndexPage extends Component {
                                              alt="Starring Michael Ball as Edna Turnblad"
                                              title="Starring Michael Ball as Edna Turnblad"/>
                                         <button
-                                            onClick={this.toggleModal}
+                                            onClick={this.toggleVideoModal}
                                             className="btn btn--watch-trailer mt-3">
                                             Watch trailer
                                         </button>
@@ -95,26 +100,29 @@ class IndexPage extends Component {
                                         <img src={limitedSeason} className="img-fluid mx-auto limitedSeason"
                                              alt="Limited season begins april 2020 at the London Coliseum"
                                              title="Limited season begins april 2020 at the London Coliseum"/>
-                                        <a
-                                            href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
-                                            target="_blank" rel="noreferrer noopener"
-                                            className="btn btn--book-now mt-3 mt-lg-4">
-                                            Book now
-                                        </a>
+
+                                        <p className="btn btn--on-sale">On Sale Friday 10AM</p>
+                                        {/*<a*/}
+                                        {/*    href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"*/}
+                                        {/*    target="_blank" rel="noreferrer noopener"*/}
+                                        {/*    className="btn btn--book-now mt-3 mt-lg-4">*/}
+                                        {/*    Book now*/}
+                                        {/*</a>*/}
                                     </Col>
                                 </Row>
                             </Container>
                         </Container>
-                        <div className="pb-4 pb-sm-0">
+                        <div className="pb-4 pb-sm-0 mt-lg-n5">
                             <img src={mainImgXs} className="img-fluid mx-auto d-block d-sm-none" alt=""/>
                             <img src={mainImgSm} className="img-fluid mx-auto d-none d-sm-block d-lg-none" alt=""/>
                             <img src={mainImgLg} className="img-fluid mx-auto d-none d-lg-block d-xl-none mainImg" alt=""/>
-                            <a
-                                href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
-                                target="_blank" rel="noreferrer noopener"
-                                className="btn btn--book-now mt-n2 d-sm-none">
-                                Book now
-                            </a>
+                            {/*<a*/}
+                            {/*    href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"*/}
+                            {/*    target="_blank" rel="noreferrer noopener"*/}
+                            {/*    className="btn btn--book-now mt-n2 d-sm-none">*/}
+                            {/*    Book now*/}
+                            {/*</a>*/}
+                            <p className="btn d-sm-none btn--on-sale">On Sale Friday 10AM</p>
                             <div className="d-none d-xl-block px-3">
                                 <Row>
                                     <Col xl={3} className="my-auto">
@@ -122,7 +130,7 @@ class IndexPage extends Component {
                                              alt="Starring Michael Ball as Edna Turnblad"
                                              title="Starring Michael Ball as Edna Turnblad"/>
                                         <button
-                                            onClick={this.toggleModal}
+                                            onClick={this.toggleVideoModal}
                                             className="btn btn--watch-trailer mt-3">
                                             Watch trailer
                                         </button>
@@ -134,12 +142,13 @@ class IndexPage extends Component {
                                         <img src={limitedSeason} className="img-fluid mx-auto limitedSeason"
                                              alt="Limited season begins april 2020 at the London Coliseum"
                                              title="Limited season begins april 2020 at the London Coliseum"/>
-                                        <a
-                                            href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
-                                            target="_blank" rel="noreferrer noopener"
-                                            className="btn btn--book-now mt-4">
-                                            Book now
-                                        </a>
+                                        {/*<a*/}
+                                        {/*    href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"*/}
+                                        {/*    target="_blank" rel="noreferrer noopener"*/}
+                                        {/*    className="btn btn--book-now mt-4">*/}
+                                        {/*    Book now*/}
+                                        {/*</a>*/}
+                                        <p className="btn mt-4 btn--on-sale">On Sale Friday 10AM</p>
                                     </Col>
                                 </Row>
                             </div>
@@ -154,14 +163,14 @@ class IndexPage extends Component {
                         <Container fluid={true} className="pb-4 mt-n4 d-sm-none">
                             <Container>
                                 <button
-                                    onClick={this.toggleModal}
+                                    onClick={this.toggleVideoModal}
                                     className="btn btn--watch-trailer mt-5">
                                     Watch trailer
                                 </button>
                             </Container>
                         </Container>
 
-                        <Container fluid={true} className="py-4 container-pink">
+                        <Container fluid={true} className="py-4 container--pink">
                             <Container>
                                 <p>The original award-winning production directed by Jack O’Brien and choreographed by
                                     Jerry Mitchell</p>
@@ -185,25 +194,7 @@ class IndexPage extends Component {
                                 </button>
                             </Container>
                         </Container>
-                        <Container fluid={true} className="footer pb-4">
-                            <Container>
-                                <a href="https://www.londoncoliseum.org/whats-on/hairspray/" target="_blank" rel="noreferrer noopener">
-                                    <img src={coliseum} alt="London Coliseum" className="img-fluid coliseum"/>
-                                    <span className="sr-only">London Coliseum</span>
-                                </a>
-
-                                <p className="text--small">© 2019 Hairspray - All Rights Reserved</p>
-
-                                <ul className="footer__links">
-                                    <li><Link to="/privacy-policy/">Privacy Policy</Link></li>
-                                    <li className="d-none d-sm-inline-block">|</li>
-                                    <li><Link to="/cookie-policy/">Cookie Policy</Link></li>
-                                    <li className="d-none d-sm-inline-block">|</li>
-                                    <li>Site by <a href="https://www.dewynters.com/" target="_blank"
-                                                   rel="noreferrer noopener">Dewynters</a></li>
-                                </ul>
-                            </Container>
-                        </Container>
+                        <Footer/>
                     </div>
                 </section>
 
@@ -221,6 +212,8 @@ class IndexPage extends Component {
                         </div>
                     </ModalBody>
                 </Modal>
+
+                <YoutubeModal isOpen={videoModalOpen} toggleModal={this.toggleVideoModal} videoId={videoId}/>
             </Layout>
         );
 

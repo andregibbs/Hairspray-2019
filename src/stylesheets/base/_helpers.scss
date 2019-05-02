@@ -56,8 +56,34 @@ a {
 
 .container {
 
-    &-pink {
+    &--pink {
         background-color: $project-pink;
+
+        * {
+            color: white;
+        }
+    }
+
+    &--lighter-blue {
+        background-color: $project-lighter-blue;
+        padding: 2rem 1rem;
+
+        @include media-breakpoint-up(xxl) {
+            padding: 4rem 2rem;
+        }
+
+        * {
+            color: white;
+        }
+    }
+
+    &--light-blue {
+        background-color: $project-light-blue;
+        padding: 2rem 1rem;
+
+        @include media-breakpoint-up(xxl) {
+            padding: 4rem 2rem;
+        }
 
         * {
             color: white;

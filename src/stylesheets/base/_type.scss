@@ -8,7 +8,7 @@ h1, h2, h3 {
 
 
 h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
 
     @include media-breakpoint-up(sm) {
         font-size: 1.5rem;
@@ -20,7 +20,7 @@ p {
     line-height: normal;
     font-family: "Proxima Nova W05", Arial, sans-serif;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
         font-size: 1.5rem;
         line-height: 1.5rem;
     }
@@ -45,7 +45,22 @@ p {
         }
     }
 
-    &--faded {
-        color: $project-light-pink;
+    &--faded-pink {
+        color: $project-light-pink !important;
+    }
+
+    &--faded-blue {
+        color: $project-lighter-than-light-blue !important;
+    }
+
+    &--white {
+        color: white !important;
+    }
+}
+
+.link {
+    &--pink {
+        color: $project-pink;
+        text-decoration: underline;
     }
 }

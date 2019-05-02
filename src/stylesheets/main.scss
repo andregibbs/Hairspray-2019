@@ -8,7 +8,7 @@ $grid-breakpoints: (
         lg: 992px,
         xl: 1200px,
         xxl: 1440px,
-        xxxl: 1600px
+        xxxl: 1920px
 );
 // Fonts
 @import 'fonts';
@@ -28,6 +28,7 @@ $grid-breakpoints: (
 @import 'components/page';
 @import 'components/signUpModal';
 @import 'components/socialIcon';
+@import 'components/youtubeModal';
 // Page
 @import 'components/HomePage';
 @import 'components/PrivacyPage';
