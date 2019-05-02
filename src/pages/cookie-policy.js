@@ -4,8 +4,8 @@ import {Link} from 'gatsby'
 import Layout from '../components/Layout'
 
 const headData = {
-    title: 'Hairspray The Musical | Official Site',
-    description: '',
+    title: 'Hairspray: The Award-winning Musical | Official London Site',
+    description: 'Michael Ball is back to shake up the West End. From April for 12 weeks only. Book now!',
 };
 
 const Privacy = () => (

@@ -169,7 +169,7 @@ const TicketInfoPage = () => (
                             </div>
                         </div>
                         <p className="text-center mb-0">
-                            Visit <a href="" className="link--pink" target="_blank" rel="noreferrer noopener">London Coliseum</a> for full performance schedule
+                            Visit <a href="https://londoncoliseum.org/whats-on/hairspray/" className="link--pink" target="_blank" rel="noreferrer noopener">London Coliseum</a> for full performance schedule
                         </p>
                     </Container>
                 </Container>

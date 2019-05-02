@@ -80,7 +80,7 @@ class IndexPage extends Component {
                                     className="img-fluid"
                             />
                         </div>
-                        <Container fluid={true} className="pb-2 pt-1 mt-n5 d-block d-sm-none">
+                        <Container fluid={true} className="pb-2 pt-1 d-block mt-n1 mt-sm-n4">
                             <Container>
                                 <img src={starringXs} className="img-fluid mx-auto d-block d-sm-none"
                                      alt="Starring Michael Ball as Edna Turnblad"
