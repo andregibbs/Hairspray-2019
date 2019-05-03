@@ -4,7 +4,7 @@ import {Link} from 'gatsby'
 import Layout from '../components/Layout'
 
 const headData = {
-    title: 'Hairspray: The Award-winning Musical | Official London Site',
+    title: 'Cookie Policy - Hairspray The Musical | Official London Site',
     description: 'Michael Ball is back to shake up the West End. From April for 12 weeks only. Book now!',
 };
 
@@ -21,7 +21,7 @@ const Privacy = () => (
                             websites.</p>
                         <p>To read our Privacy Policy please click <Link to="/privacy-policy/">HERE</Link>.</p>
 
-                        <p><strong>ENCORE THEATRICAL PRODUCTIONS uses cookies for three main purposes:</strong></p>
+                        <p><strong>Hairspray 2020 uses cookies for three main purposes:</strong></p>
                         <ul>
                             <li>To ensure the website works, in particular for online booking</li>
                             <li>To monitor website performance and help us make improvements in the future</li>
@@ -143,7 +143,7 @@ const Privacy = () => (
                             table.</p>
                         <p>Please be aware that by limiting or deleting cookies, your experience of our website might not be the
                             best it could be. If you have any questions about cookies, please contact the Data Protection
-                            Manager admin@openairtheatre.com</p>
+                            Manager <a href="mailto:info@adamspiegel.com">info@adamspiegel.com</a></p>
                         <p><strong>Turning cookies off</strong></p>
                         <p>You can usually switch cookies off by adjusting your browser settings to stop it from accepting cookies.
                             Doing so, however, will likely limit the functionality of this site - and a large proportion of

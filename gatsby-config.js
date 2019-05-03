@@ -1,9 +1,9 @@
 module.exports = {
     siteMetadata: {
         title: `Hairspray The Musical`,
-        description: `Sue Hyman`,
+        description: `Michael Ball is back to shake up the West End. From April for 12 weeks only. Book now!`,
         author: ``,
-        siteUrl: `https://hairspraythemusical.co.uk/`
+        siteUrl: `https://www.hairspraythemusical.co.uk/`
     },
     plugins: [
         'gatsby-plugin-resolve-src',
@@ -38,16 +38,16 @@ module.exports = {
                 name: `Hairspray The Musical`,
                 short_name: `Hairspray`,
                 start_url: `/`,
+                background_color: `#ffffff`,
+                theme_color: `#ffffff`,
+                display: `minimal-ui`,
                 icon: `src/images/favicon.jpg`, // This path is relative to the root of the site.
-                "theme_color": "#ffffff",
-                "background_color": "#ffffff",
-                "display": "standalone"
             },
         },
         {
             resolve: `gatsby-plugin-canonical-urls`,
             options: {
-                siteUrl: 'https://hairspraythemusical.co.uk/'
+                siteUrl: 'https://www.hairspraythemusical.co.uk/'
             },
         },
         {

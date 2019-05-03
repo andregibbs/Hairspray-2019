@@ -17,7 +17,7 @@ import mainImgSm from 'images/Image-tablet.jpg'
 import mainImgLg from 'images/Image-desktop.jpg'
 
 const headData = {
-    title: 'Hairspray: The Award-winning Musical | Official London Site',
+    title: 'Hairspray The Musical | Official London Site',
     description: 'Michael Ball is back to shake up the West End. From April for 12 weeks only. Book now!',
 }
 
@@ -101,13 +101,13 @@ class IndexPage extends Component {
                                              alt="Limited season begins april 2020 at the London Coliseum"
                                              title="Limited season begins april 2020 at the London Coliseum"/>
 
-                                        <p className="btn btn--on-sale">On Sale Friday 10AM</p>
-                                        {/*<a*/}
-                                        {/*    href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"*/}
-                                        {/*    target="_blank" rel="noreferrer noopener"*/}
-                                        {/*    className="btn btn--book-now mt-3 mt-lg-4">*/}
-                                        {/*    Book now*/}
-                                        {/*</a>*/}
+                                        {/*<p className="btn btn--on-sale">On Sale Friday 10AM</p>*/}
+                                        <a
+                                            href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
+                                            target="_blank" rel="noreferrer noopener"
+                                            className="btn btn--book-now mt-3 mt-lg-4">
+                                            Book now
+                                        </a>
                                     </Col>
                                 </Row>
                             </Container>
@@ -116,13 +116,13 @@ class IndexPage extends Component {
                             <img src={mainImgXs} className="img-fluid mx-auto d-block d-sm-none" alt=""/>
                             <img src={mainImgSm} className="img-fluid mx-auto d-none d-sm-block d-lg-none" alt=""/>
                             <img src={mainImgLg} className="img-fluid mx-auto d-none d-lg-block d-xl-none mainImg" alt=""/>
-                            {/*<a*/}
-                            {/*    href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"*/}
-                            {/*    target="_blank" rel="noreferrer noopener"*/}
-                            {/*    className="btn btn--book-now mt-n2 d-sm-none">*/}
-                            {/*    Book now*/}
-                            {/*</a>*/}
-                            <p className="btn d-sm-none btn--on-sale">On Sale Friday 10AM</p>
+                            <a
+                                href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
+                                target="_blank" rel="noreferrer noopener"
+                                className="btn btn--book-now mt-n2 d-sm-none">
+                                Book now
+                            </a>
+                            {/*<p className="btn d-sm-none btn--on-sale">On Sale Friday 10AM</p>*/}
                             <div className="d-none d-xl-block px-3">
                                 <Row>
                                     <Col xl={3} className="my-auto">
@@ -142,13 +142,13 @@ class IndexPage extends Component {
                                         <img src={limitedSeason} className="img-fluid mx-auto limitedSeason"
                                              alt="Limited season begins april 2020 at the London Coliseum"
                                              title="Limited season begins april 2020 at the London Coliseum"/>
-                                        {/*<a*/}
-                                        {/*    href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"*/}
-                                        {/*    target="_blank" rel="noreferrer noopener"*/}
-                                        {/*    className="btn btn--book-now mt-4">*/}
-                                        {/*    Book now*/}
-                                        {/*</a>*/}
-                                        <p className="btn mt-4 btn--on-sale">On Sale Friday 10AM</p>
+                                        <a
+                                            href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
+                                            target="_blank" rel="noreferrer noopener"
+                                            className="btn btn--book-now mt-4">
+                                            Book now
+                                        </a>
+                                        {/*<p className="btn mt-4 btn--on-sale">On Sale Friday 10AM</p>*/}
                                     </Col>
                                 </Row>
                             </div>

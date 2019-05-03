@@ -74,25 +74,33 @@
         }
 
         @include media-breakpoint-up(lg) {
-            padding: 10px 0 10px 50px;
+            padding: 13px 0 13px 50px;
         }
 
-        @include media-breakpoint-up(lg) {
+        @include media-breakpoint-up(xl) {
             font-size: 1.5rem;
-            padding: 10px 0 10px 40px;
+            padding: 13px 0 13px 50px;
         }
 
         &:before {
             @include media-breakpoint-up(lg) {
-                left: 25px;
+                left: 35px;
             }
 
             @include media-breakpoint-up(xl) {
-                left: 5px;
+                left: 15px;
+            }
+
+            @include media-breakpoint-up(xxl) {
+                left: 35px;
+            }
+
+            @include media-breakpoint-up(xxxl) {
+                left: 25px;
             }
 
             @include media-breakpoint-down(sm) {
-                left: 10px;
+                left: 20px;
             }
         }
 
@@ -153,6 +161,10 @@
 
         &__dates {
             margin: 0;
+        }
+
+        &__copy {
+            min-width: 170px;
         }
     }
 

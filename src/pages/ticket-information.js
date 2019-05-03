@@ -14,7 +14,7 @@ import groups20 from 'images/groups-20.svg'
 import groups50 from 'images/groups-50.svg'
 
 const headData = {
-    title: 'Ticket info - Hairspray: The Award-winning Musical | Official London Site',
+    title: 'Ticket info - Hairspray The Musical | Official London Site',
     description: 'Arriving at the London Coliseum from next April for a strictly limited 12-week season. Don’t miss out – book now!',
 }
 
@@ -144,7 +144,7 @@ const TicketInfoPage = () => (
                                 <div>
                                     <img src={clock730} className="clock__img" alt="7:30PM" title="7:30PM"/>
                                 </div>
-                                <div>
+                                <div className="clock__copy">
                                     <p className="clock__time">7.30PM</p>
                                     <p className="clock__days">Tuesday - Saturday</p>
                                 </div>
@@ -153,18 +153,18 @@ const TicketInfoPage = () => (
                                 <div>
                                     <img src={clock300} className="clock__img" alt="3:00PM" title="3:00PM"/>
                                 </div>
-                                <div>
+                                <div className="clock__copy">
                                     <p className="clock__time">3.00PM</p>
-                                    <p className="clock__days">Tuesday - Saturday</p>
+                                    <p className="clock__days">Thursday & Saturday</p>
                                 </div>
                             </div>
                             <div className="clock__item">
                                 <div>
                                     <img src={clock400} className="clock__img" alt="4:00PM" title="4:00PM"/>
                                 </div>
-                                <div>
+                                <div className="clock__copy">
                                     <p className="clock__time">4.00PM</p>
-                                    <p className="clock__days">Tuesday - Saturday</p>
+                                    <p className="clock__days">Sunday</p>
                                 </div>
                             </div>
                         </div>
@@ -179,18 +179,18 @@ const TicketInfoPage = () => (
                     <div className="flex group pt-2 pt-lg-5">
                         <div className="group__item mb-lg-5">
                             <img src={groups10} alt="Groups 10+" title="Groups 10+" className="group__img img-fluid" />
-                            <p className="group__copy">Brand A just <strong>£55</strong></p>
-                            <p className="group__copy">Brand B just <strong>£45</strong></p>
+                            <p className="group__copy">Band A just <strong>£55</strong></p>
+                            <p className="group__copy">Band B just <strong>£45</strong></p>
                         </div>
                         <div className="group__item mt-4 mt-md-5 mt-lg-0 mb-lg-5">
                             <img src={groups20} alt="Groups 20+" title="Groups 20+" className="group__img img-fluid" />
-                            <p className="group__copy">Brand A just <strong>£50</strong></p>
-                            <p className="group__copy">Brand B just <strong>£40</strong></p>
+                            <p className="group__copy">Band A just <strong>£50</strong></p>
+                            <p className="group__copy">Band B just <strong>£40</strong></p>
                         </div>
                         <div className="group__item mt-4 mt-md-5 mt-lg-0 mb-lg-5">
                             <img src={groups50} alt="Groups 50+" title="Groups 50+" className="group__img img-fluid" />
-                            <p className="group__copy">Brand A just <strong>£45</strong></p>
-                            <p className="group__copy">Brand B just <strong>£35</strong></p>
+                            <p className="group__copy">Band A just <strong>£45</strong></p>
+                            <p className="group__copy">Band B just <strong>£35</strong></p>
                         </div>
                     </div>
                     <div className="flex group__buttons pt-4 pt-lg-0 pb-4 pb-lg-5">

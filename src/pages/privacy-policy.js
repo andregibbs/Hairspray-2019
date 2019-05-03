@@ -4,7 +4,7 @@ import {Link} from 'gatsby'
 import Layout from '../components/Layout'
 
 const headData = {
-    title: 'Hairspray The Musical | Official Site',
+    title: 'Privacy Policy - Hairspray The Musical | Official London Site',
     description: 'Michael Ball is back to shake up the West End. From April for 12 weeks only. Book now!',
 };
 
@@ -16,10 +16,10 @@ const PrivacyPolicy = () => (
                     <Container>
                         <h1 className="pb-4">Privacy Policy</h1>
                         <p><strong>Introduction</strong></p>
-                        <p>This website, controlled by Encore Theatrical Productions provides marketing information on HairsprayTheMusical.co.uk. Encore Theatrical Productions is the Data Controller, for the purposes of Data Protection Law, when your personal information is processed as a result of your visit to this website.</p>
+                        <p>This website, controlled by Hairspray 2020 provides marketing information on HairsprayTheMusical.co.uk. Encore Theatrical Productions is the Data Controller, for the purposes of Data Protection Law, when your personal information is processed as a result of your visit to this website.</p>
                         <p>We are committed to providing you with relevant information about, and control over, how we process your personal information.</p>
                         <p>This policy explains what personal information we may record, why we do so, how you may control the use of your information and how we protect your information. Details of your legal rights and how to exercise them are also set out below.</p>
-                        <p>This policy was last updated on 26/03/2019. Any future changes to our policy will be reflected <Link to="/cookie-policy/">here</Link>.</p>
+                        <p>This policy was last updated on 02/05/2019. Any future changes to our policy will be reflected <Link to="/cookie-policy/">here</Link>.</p>
 
                         <p><strong>Contacting us</strong></p>
                         <p>Questions, comments and requests regarding this privacy policy are welcomed and should be addressed by email to <a href="mailto:gdpr@hairspraythemusical.co.uk">gdpr@hairspraythemusical.co.uk</a></p>

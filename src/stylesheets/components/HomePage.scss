@@ -9,10 +9,6 @@
         @include media-breakpoint-up(xxl) {
             max-width: 800px;
         }
-
-        @include media-breakpoint-up(xxxl) {
-            max-width: 1300px;
-        }
     }
 
     .starring, .limitedSeason {

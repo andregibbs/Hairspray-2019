@@ -111,6 +111,7 @@
         background: none;
         color: $project-purple;
         padding: 28px 0 0;
+        cursor: default;
 
         @include media-breakpoint-up(lg) {
             padding: 40px 0 0;
@@ -118,6 +119,12 @@
 
         &:before {
             content: "";
+            background: none;
+        }
+
+        &:hover {
+            transform: none;
+            color: $project-purple;
             background: none;
         }
     }
