@@ -98,7 +98,7 @@ const TicketInfoPage = () => (
                         <Col xs={12} md={6} className="mb-4 mb-lg-0">
                             <h2 className="book-title text-uppercase">Online</h2>
                             <a
-                                href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
+                                href="https://londoncoliseum.org/whats-on/hairspray/"
                                 target="_blank" rel="noreferrer noopener"
                                 className="btn btn--book-now">
                                 Box office
@@ -107,10 +107,10 @@ const TicketInfoPage = () => (
                             <p>&nbsp;</p>
                             <p className="d-none d-md-block">&nbsp;</p>
                             <a
-                                href="tel:+442078459300"
+                                href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
                                 target="_blank" rel="noreferrer noopener"
-                                className="btn btn--call">
-                                020 7845 9300
+                                className="btn btn--ticketmaster">
+                                Ticketmaster
                             </a>
                             <p>Best for mobile bookings</p>
                             <p className="text--faded-pink">Fees apply</p>

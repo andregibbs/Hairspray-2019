@@ -6,6 +6,7 @@ import Lottie from 'react-lottie'
 import * as animationData from 'lottie/data.json'
 import SignUpForm from 'components/SignUpForm'
 import Footer from 'components/Footer'
+import {Link} from 'gatsby'
 import YoutubeModal from 'components/YoutubeModal/YoutubeModal'
 import sheIsBack from 'images/she-is-back.svg'
 import starringXs from 'images/starring-xs.svg'
@@ -102,26 +103,24 @@ class IndexPage extends Component {
                                              title="Limited season begins april 2020 at the London Coliseum"/>
 
                                         {/*<p className="btn btn--on-sale">On Sale Friday 10AM</p>*/}
-                                        <a
-                                            href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
-                                            target="_blank" rel="noreferrer noopener"
+                                        <Link
+                                            to="/ticket-information/"
                                             className="btn btn--book-now mt-3 mt-lg-4">
                                             Book now
-                                        </a>
+                                        </Link>
                                     </Col>
                                 </Row>
                             </Container>
                         </Container>
                         <div className="pb-4 pb-sm-0 mt-lg-n5">
-                            <img src={mainImgXs} className="img-fluid mx-auto d-block d-sm-none" alt=""/>
+                            <img src={mainImgXs} className="img-fluid mx-auto d-block d-sm-none mainImgXs" alt=""/>
                             <img src={mainImgSm} className="img-fluid mx-auto d-none d-sm-block d-lg-none" alt=""/>
                             <img src={mainImgLg} className="img-fluid mx-auto d-none d-lg-block d-xl-none mainImg" alt=""/>
-                            <a
-                                href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
-                                target="_blank" rel="noreferrer noopener"
+                            <Link
+                                to="/ticket-information/"
                                 className="btn btn--book-now mt-n2 d-sm-none">
                                 Book now
-                            </a>
+                            </Link>
                             {/*<p className="btn d-sm-none btn--on-sale">On Sale Friday 10AM</p>*/}
                             <div className="d-none d-xl-block px-3">
                                 <Row>
@@ -142,12 +141,11 @@ class IndexPage extends Component {
                                         <img src={limitedSeason} className="img-fluid mx-auto limitedSeason"
                                              alt="Limited season begins april 2020 at the London Coliseum"
                                              title="Limited season begins april 2020 at the London Coliseum"/>
-                                        <a
-                                            href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
-                                            target="_blank" rel="noreferrer noopener"
+                                        <Link
+                                            to="/ticket-information/"
                                             className="btn btn--book-now mt-4">
                                             Book now
-                                        </a>
+                                        </Link>
                                         {/*<p className="btn mt-4 btn--on-sale">On Sale Friday 10AM</p>*/}
                                     </Col>
                                 </Row>

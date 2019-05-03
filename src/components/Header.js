@@ -45,7 +45,7 @@ class Header extends Component {
             <>
             <header className={`header ${collapsed ? 'collapsed' : ''}`}>
                 <div className="header__container">
-                    <ul className={`header__links--social ${navToggled ? 'active' : ''}`}>
+                    <ul className={`header__links--social ${!displayLogo || navToggled ? 'active' : ''}`}>
                         <li>
                             <a href="https://twitter.com/hairspraylondon" target="_blank" rel="noopener noreferrer"
                                className="socialIcon socialIcon-twitter">
