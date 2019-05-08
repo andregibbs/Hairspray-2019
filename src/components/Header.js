@@ -55,7 +55,7 @@ class Header extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/Hairspray-London-347007716161797/" target="_blank"
+                            <a href="https://www.facebook.com/hairspraylondon" target="_blank"
                                rel="noopener noreferrer" className="socialIcon socialIcon-facebook">
                                 <div className="btn-social facebook">
                                     <span className="sr-only">Facebook</span>
@@ -116,7 +116,7 @@ class Header extends Component {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.facebook.com/Hairspray-London-347007716161797/" target="_blank"
+                                    <a href="https://www.facebook.com/hairspraylondon" target="_blank"
                                        rel="noopener noreferrer" className="socialIcon socialIcon-facebook">
                                         <div className="btn-social facebook">
                                             <span className="sr-only">Facebook</span>
