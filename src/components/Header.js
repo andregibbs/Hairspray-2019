@@ -45,7 +45,7 @@ class Header extends Component {
             <>
             <header className={`header ${collapsed ? 'collapsed' : ''}`}>
                 <div className="header__container">
-                    <ul className={`header__links--social ${navToggled ? 'active' : ''}`}>
+                    <ul className={`header__links--social ${!displayLogo || navToggled ? 'active' : ''}`}>
                         <li>
                             <a href="https://twitter.com/hairspraylondon" target="_blank" rel="noopener noreferrer"
                                className="socialIcon socialIcon-twitter">
@@ -55,7 +55,7 @@ class Header extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/Hairspray-London-347007716161797/" target="_blank"
+                            <a href="https://www.facebook.com/hairspraylondon" target="_blank"
                                rel="noopener noreferrer" className="socialIcon socialIcon-facebook">
                                 <div className="btn-social facebook">
                                     <span className="sr-only">Facebook</span>
@@ -116,7 +116,7 @@ class Header extends Component {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.facebook.com/Hairspray-London-347007716161797/" target="_blank"
+                                    <a href="https://www.facebook.com/hairspraylondon" target="_blank"
                                        rel="noopener noreferrer" className="socialIcon socialIcon-facebook">
                                         <div className="btn-social facebook">
                                             <span className="sr-only">Facebook</span>

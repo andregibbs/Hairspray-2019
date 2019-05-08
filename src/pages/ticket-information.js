@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import Layout from 'components/Layout'
 import {Container, Row, Col} from 'reactstrap'
+import {Link} from 'gatsby'
 import Footer from 'components/Footer'
 import threeWaysXs from 'images/3-ways-xs.svg'
 import threeWays from 'images/3-ways.svg'
@@ -34,19 +35,19 @@ const TicketInfoPage = () => (
                 <div className="container--pink-shape">
                     <img src={threeWaysXs} alt="" title="" className="img-fluid d-block d-lg-none mx-auto"/>
                     <img src={threeWays} alt="" title="" className="img-fluid d-none d-lg-block mx-auto"/>
-                    <Row className="text-center mt-4 d-none d-xl-flex">
-                        <Col xs={12} xl={6}>
+                    <Row className="text-center mt-4 d-none d-xl-flex text-center">
+                        <Col xs={12} xl={4}>
                             <h2 className="book-title text-uppercase">Online</h2>
                         </Col>
-                        <Col xs={12} xl={3}>
+                        <Col xs={12} xl={4}>
                             <h2 className="book-title text-uppercase">Call</h2>
                         </Col>
-                        <Col xs={12} xl={3}>
+                        <Col xs={12} xl={4}>
                             <h2 className="book-title text-uppercase">In person</h2>
                         </Col>
                     </Row>
-                    <Row className="text-center d-none d-xl-flex">
-                        <Col xs={12} xl={3}>
+                    <Row className="text-center d-none d-xl-flex text-center">
+                        <Col xs={12} xl={4}>
                             <a
                                 href="https://londoncoliseum.org/whats-on/hairspray/"
                                 target="_blank" rel="noreferrer noopener"
@@ -54,15 +55,7 @@ const TicketInfoPage = () => (
                                 Box office
                             </a>
                         </Col>
-                        <Col xs={12} xl={3}>
-                            <a
-                                href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
-                                target="_blank" rel="noreferrer noopener"
-                                className="btn btn--ticketmaster">
-                                Ticketmaster
-                            </a>
-                        </Col>
-                        <Col xs={12} xl={3}>
+                        <Col xs={12} xl={4}>
                             <a
                                 href="tel:+442078459300"
                                 target="_blank" rel="noreferrer noopener"
@@ -70,7 +63,7 @@ const TicketInfoPage = () => (
                                 020 7845 9300
                             </a>
                         </Col>
-                        <Col xs={12} xl={3}>
+                        <Col xs={12} xl={4}>
                             <a
                                 href="https://goo.gl/maps/cjgp5krePeyiRWvM6"
                                 target="_blank" rel="noreferrer noopener"
@@ -79,43 +72,28 @@ const TicketInfoPage = () => (
                             </a>
                         </Col>
                     </Row>
-                    <Row className="text-center mt-xl-4 d-none d-xl-flex">
-                        <Col xs={12} xl={3}>
+                    <Row className="text-center mt-xl-4 d-none d-xl-flex text-center">
+                        <Col xs={12} xl={4}>
                             <p className="text--faded-pink">£2.25 booking fee applies</p>
                         </Col>
-                        <Col xs={12} xl={3}>
-                            <p>Best for mobile bookings</p>
-                            <p className="text--faded-pink">Fees apply</p>
-                        </Col>
-                        <Col xs={12} xl={3}>
+                        <Col xs={12} xl={4}>
                             <p className="text--faded-pink">£2.25 booking fee applies</p>
                         </Col>
-                        <Col xs={12} xl={3}>
+                        <Col xs={12} xl={4}>
                             <p>London&nbsp;Coliseum, St&nbsp;Martin's&nbsp;Ln, Charing&nbsp;Cross, London WC2N&nbsp;4ES</p>
                         </Col>
                     </Row>
                     <Row className="d-xl-none text-center mx-auto mt-4">
-                        <Col xs={12} md={6} className="mb-4 mb-lg-0">
+                        <Col xs={12}>
                             <h2 className="book-title text-uppercase">Online</h2>
                             <a
-                                href="https://www.ticketmaster.co.uk/hairspray-tickets/artist/820944"
+                                href="https://londoncoliseum.org/whats-on/hairspray/"
                                 target="_blank" rel="noreferrer noopener"
                                 className="btn btn--book-now">
                                 Box office
                             </a>
                             <p className="text--faded-pink">£2.25 booking fee applies</p>
                             <p>&nbsp;</p>
-                            <p className="d-none d-md-block">&nbsp;</p>
-                            <a
-                                href="tel:+442078459300"
-                                target="_blank" rel="noreferrer noopener"
-                                className="btn btn--call">
-                                020 7845 9300
-                            </a>
-                            <p>Best for mobile bookings</p>
-                            <p className="text--faded-pink">Fees apply</p>
-                        </Col>
-                        <Col xs={12} md={6}>
                             <h2 className="book-title text-uppercase">Call</h2>
                             <a
                                 href="tel:+442078459300"
