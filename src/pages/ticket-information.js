@@ -73,10 +73,7 @@ const TicketInfoPage = () => (
                         </Col>
                     </Row>
                     <Row className="text-center mt-xl-4 d-none d-xl-flex text-center">
-                        <Col xs={12} xl={4}>
-                            <p className="text--faded-pink">£2.25 booking fee applies</p>
-                        </Col>
-                        <Col xs={12} xl={4}>
+                        <Col xs={12} xl={8}>
                             <p className="text--faded-pink">£2.25 booking fee applies</p>
                         </Col>
                         <Col xs={12} xl={4}>
@@ -92,7 +89,7 @@ const TicketInfoPage = () => (
                                 className="btn btn--book-now">
                                 Box office
                             </a>
-                            <p className="text--faded-pink">£2.25 booking fee applies</p>
+
                             <p>&nbsp;</p>
                             <h2 className="book-title text-uppercase">Call</h2>
                             <a
