@@ -103,11 +103,12 @@ class IndexPage extends Component {
                                              title="Limited season begins april 2020 at the London Coliseum"/>
 
                                         {/*<p className="btn btn--on-sale">On Sale Friday 10AM</p>*/}
-                                        <Link
-                                            to="/ticket-information/"
+                                        <a
+                                            href="https://londoncoliseum.org/whats-on/hairspray/"
+                                            rel="noreferrer noopener" target="_blank"
                                             className="btn btn--book-now mt-3 mt-lg-4">
                                             Book now
-                                        </Link>
+                                        </a>
                                     </Col>
                                 </Row>
                             </Container>
@@ -116,11 +117,12 @@ class IndexPage extends Component {
                             <img src={mainImgXs} className="img-fluid mx-auto d-block d-sm-none mainImgXs" alt=""/>
                             <img src={mainImgSm} className="img-fluid mx-auto d-none d-sm-block d-lg-none" alt=""/>
                             <img src={mainImgLg} className="img-fluid mx-auto d-none d-lg-block d-xl-none mainImg" alt=""/>
-                            <Link
-                                to="/ticket-information/"
+                            <a
+                                href="https://londoncoliseum.org/whats-on/hairspray/"
+                                rel="noreferrer noopener" target="_blank"
                                 className="btn btn--book-now mt-n2 d-sm-none">
                                 Book now
-                            </Link>
+                            </a>
                             {/*<p className="btn d-sm-none btn--on-sale">On Sale Friday 10AM</p>*/}
                             <div className="d-none d-xl-block px-3">
                                 <Row>
@@ -141,11 +143,12 @@ class IndexPage extends Component {
                                         <img src={limitedSeason} className="img-fluid mx-auto limitedSeason"
                                              alt="Limited season begins april 2020 at the London Coliseum"
                                              title="Limited season begins april 2020 at the London Coliseum"/>
-                                        <Link
-                                            to="/ticket-information/"
+                                        <a
+                                            href="https://londoncoliseum.org/whats-on/hairspray/"
+                                            rel="noreferrer noopener" target="_blank"
                                             className="btn btn--book-now mt-4">
                                             Book now
-                                        </Link>
+                                        </a>
                                         {/*<p className="btn mt-4 btn--on-sale">On Sale Friday 10AM</p>*/}
                                     </Col>
                                 </Row>
