@@ -15,7 +15,7 @@ import groups20 from 'images/groups-20.svg'
 import groups50 from 'images/groups-50.svg'
 
 const headData = {
-    title: 'Ticket info - Hairspray The Musical | Official London Site',
+    title: 'Ticket info - Hairspray The Musical - London Coliseum',
     description: 'Arriving at the London Coliseum from next April for a strictly limited 12-week season. Don’t miss out – book now!',
 }
 

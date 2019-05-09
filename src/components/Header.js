@@ -74,7 +74,7 @@ class Header extends Component {
 
                     <div className={`header-logo ${navToggled ? 'hidden' : ''} ${!displayLogo ? 'd-none' : ''}`}>
                         <Link to="/">
-                            <img src={logo} className="img-fluid"/>
+                            <img src={logo} alt="Hairspray The Musical London" className="img-fluid"/>
                         </Link>
                     </div>
 
