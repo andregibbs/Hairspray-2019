@@ -74,7 +74,7 @@ const TicketInfoPage = () => (
                     </Row>
                     <Row className="text-center mt-xl-4 d-none d-xl-flex text-center">
                         <Col xs={12} xl={8}>
-                            <p className="text--faded-pink">£2.25 booking fee applies</p>
+                            <p className="text--faded-pink">A £2.25 booking fee applies to online & phone bookings</p>
                         </Col>
                         <Col xs={12} xl={4}>
                             <p>London&nbsp;Coliseum, St&nbsp;Martin's&nbsp;Ln, Charing&nbsp;Cross, London WC2N&nbsp;4ES</p>
@@ -98,7 +98,7 @@ const TicketInfoPage = () => (
                                 className="btn btn--call">
                                 020 7845 9300
                             </a>
-                            <p className="text--faded-pink">£2.25 booking fee applies</p>
+                            <p className="text--faded-pink">A £2.25 booking fee applies to online & phone bookings</p>
                             <p>&nbsp;</p>
                             <h2 className="book-title text-uppercase">In person</h2>
                             <a
