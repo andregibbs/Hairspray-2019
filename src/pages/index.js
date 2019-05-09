@@ -6,16 +6,14 @@ import Lottie from 'react-lottie'
 import * as animationData from 'lottie/data.json'
 import SignUpForm from 'components/SignUpForm'
 import Footer from 'components/Footer'
-import {Link} from 'gatsby'
+import Img from 'gatsby-image'
+import {graphql} from 'gatsby'
 import YoutubeModal from 'components/YoutubeModal/YoutubeModal'
 import sheIsBack from 'images/she-is-back.svg'
 import starringXs from 'images/starring-xs.svg'
 import starring from 'images/starring.svg'
 import limitedSeasonXs from 'images/limited-season-xs.svg'
 import limitedSeason from 'images/limited-season.svg'
-import mainImgXs from 'images/Image-mobile.jpg'
-import mainImgSm from 'images/Image-tablet.jpg'
-import mainImgLg from 'images/Image-desktop.jpg'
 
 const headData = {
     title: 'Hairspray The Musical | Official London Site',
@@ -81,7 +79,7 @@ class IndexPage extends Component {
                                     className="img-fluid"
                             />
                         </div>
-                        <Container fluid={true} className="pb-2 pt-1 d-block mt-n1 mt-sm-n4">
+                        <Container fluid={true} className="pb-2 pt-1 d-block mt-n4 mt-sm-n1 mt-sm-n4 position-relative z-index-2">
                             <Container>
                                 <img src={starringXs} className="img-fluid mx-auto d-block d-sm-none"
                                      alt="Starring Michael Ball as Edna Turnblad"
@@ -114,9 +112,9 @@ class IndexPage extends Component {
                             </Container>
                         </Container>
                         <div className="pb-4 pb-sm-0 mt-lg-n5">
-                            <img src={mainImgXs} className="img-fluid mx-auto d-block d-sm-none mainImgXs" alt=""/>
-                            <img src={mainImgSm} className="img-fluid mx-auto d-none d-sm-block d-lg-none" alt=""/>
-                            <img src={mainImgLg} className="img-fluid mx-auto d-none d-lg-block d-xl-none mainImg" alt=""/>
+                            <Img critical={true} fadeIn={false} fluid={this.props.data.mainImgXs.childImageSharp.fluid} className="img-fluid mx-auto d-block d-sm-none mainImgXs" alt=""/>
+                            <Img critical={true} fadeIn={false} fluid={this.props.data.mainImgSm.childImageSharp.fluid} className="img-fluid mx-auto d-none d-sm-block d-lg-none" alt=""/>
+                            <Img critical={true} fadeIn={false} fluid={this.props.data.mainImgLg.childImageSharp.fluid} className="img-fluid mx-auto d-none d-lg-block d-xl-none mainImg" alt=""/>
                             <a
                                 href="https://londoncoliseum.org/whats-on/hairspray/"
                                 rel="noreferrer noopener" target="_blank"
@@ -137,7 +135,7 @@ class IndexPage extends Component {
                                         </button>
                                     </Col>
                                     <Col xl={6}>
-                                        <img src={mainImgLg} className="img-fluid mx-auto d-none d-lg-block mainImg" alt=""/>
+                                        <Img critical={true} fadeIn={false} fluid={this.props.data.mainImgLg.childImageSharp.fluid} className="img-fluid mx-auto d-none d-lg-block mainImg" alt=""/>
                                     </Col>
                                     <Col xl={3} className="my-auto">
                                         <img src={limitedSeason} className="img-fluid mx-auto limitedSeason"
@@ -222,3 +220,31 @@ class IndexPage extends Component {
 }
 
 export default IndexPage
+
+export const IndexPageQuery = graphql`
+query {
+    mainImgLg: file(relativePath: { eq: "Image-desktop.jpg" }) {
+    	childImageSharp {
+            fluid(maxWidth: 858) {
+                ...GatsbyImageSharpFluid_withWebp
+            
+            }
+        }
+	}
+	mainImgSm: file(relativePath: { eq: "Image-tablet.jpg" }) {
+    	childImageSharp {
+            fluid(maxWidth: 766) {
+                ...GatsbyImageSharpFluid_withWebp
+            
+            }
+        }
+	}
+    mainImgXs: file(relativePath: { eq: "Image-mobile.jpg" }) {
+    	childImageSharp {
+            fluid(maxWidth: 575) {
+                ...GatsbyImageSharpFluid_withWebp
+            
+            }
+        }
+	}
+}`

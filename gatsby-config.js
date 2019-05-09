@@ -12,6 +12,19 @@ module.exports = {
         `gatsby-transformer-json`,
         `gatsby-plugin-react-helmet`,
         {
+            resolve: `gatsby-plugin-htaccess`,
+            options: {
+                https: true,
+                www: true,
+                custom: `
+                    ErrorDocument 404 /index.html
+                    <IfModule mime_module>
+                      AddHandler application/x-httpd-ea-php70 .php .php7 .phtml
+                    </IfModule>
+                `,
+            }
+        },
+        {
             resolve: `gatsby-plugin-sass`,
             options: {
                 precision: 8,
