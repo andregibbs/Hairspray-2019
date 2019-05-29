@@ -27,14 +27,14 @@ const AboutPage = () => (
                     </Container>
                 </Container>
 
-                 <Container fluid={true} className="py-2 py-lg-0">
-                   <Row className="text-center mt-4 d-xl-flex text-center">
+                 <Container fluid={true} className="py-2 pb-lg-5">
+                   <Row className="text-center m-0 mt-4 d-xl-flex text-center">
                         <Col xs={12} xl={4}>
-                          <img src={leftimg} alt="" title="" className="img-fluid d-none d-lg-block mx-auto"/>
+                          <img src={leftimg} alt="" title="" className="img-fluid d-none d-xl-block mx-auto"/>
                         </Col>
                         <Col xs={12} xl={4}>
-                           <img src={lookBack} alt="" title="" className="img-fluid d-none d-lg-block mx-auto"/>
-                           <br className="d-none d-lg-block"/><br className="d-none d-lg-block"/>
+                           <img src={lookBack} alt="" title="" className="img-fluid  mx-auto"/>
+                           <br /><br/>
                             <p><strong>Don’t miss Michael Ball reprising his Olivier Award-winning role as Edna Turnblad in Hairspray the Musical. The huge-hearted, smash-hit musical arrives at the magnificent London Coliseum from next April for a strictly limited 12-week season.</strong></p> 
                             <p>Baltimore, 1962. Tracy Turnblad is a big girl with big hair and big dreams. Can she make it on the local TV dance show, win the heart of teen heartthrob Link Larkin and bring everyone together – whatever their colour, size or hairdo? Well if you want a change, you’ve really got to shake things up!</p> 
                             <p>From the original award-winning creative team of director <strong>Jack O’Brien</strong> and choreographer <strong>Jerry Mitchell</strong>, and featuring the infectiously feel-good songs <strong className="text--blue text--bolder">Good Morning Baltimore</strong>, <strong className="text--blue text--bolder">You Can’t Stop the Beat</strong> and <strong className="text--blue text--bolder">Big, Blonde and Beautiful</strong> this inspirational, fun-loving and fabulously uplifting musical sensation is back and bigger than ever.</p>
@@ -48,7 +48,7 @@ const AboutPage = () => (
                             </a>
                         </Col>
                         <Col xs={12} xl={4}>
-                         <img src={rightimg} alt="" title="" className="img-fluid d-none d-lg-block mx-auto"/>
+                         <img src={rightimg} alt="" title="" className="img-fluid d-none d-xl-block mx-auto"/>
 
                         </Col>
                    </Row>
