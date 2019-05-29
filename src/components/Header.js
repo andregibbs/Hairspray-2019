@@ -100,6 +100,12 @@ class Header extends Component {
                             </Link>
                         </li>
                         <li>
+                            <Link to="/about/" activeClassName="active" className="link about" title="About">
+                                <div/>
+                                <span className="sr-only">About</span>
+                            </Link>
+                        </li>
+                        <li>
                             <Link to="/ticket-information/" activeClassName="active" className="link ticket-info" title="Ticket Information">
                                 <div/>
                                 <span className="sr-only">Ticket Information</span>

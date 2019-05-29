@@ -74,6 +74,16 @@
           }
         }
 
+        &.about > div {
+          background: url("../images/menu/About-mob.svg") center center no-repeat;
+          background-size: auto 60px;
+
+          @include media-breakpoint-up(sm) {
+            background: url("../images/menu/About.svg") center center no-repeat;
+            background-size: 20%;
+          }
+        }
+
         &:hover, &.active {
 
           &.home > div {
@@ -93,6 +103,16 @@
             @include media-breakpoint-up(sm) {
               background: url("../images/menu/Ticket-hover.svg") center center no-repeat;
               background-size: 110%;
+            }
+          }
+
+          &.about > div {
+            background: url("../images/menu/About-mob-hover.svg") center center no-repeat;
+            background-size: auto 60px;
+
+            @include media-breakpoint-up(sm) {
+              background: url("../images/menu/About-hover.svg") center center no-repeat;
+              background-size: 20%;
             }
           }
         }

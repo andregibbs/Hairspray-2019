@@ -1,0 +1,211 @@
+.AboutPage {
+
+    h1 {
+        color: $project-pink;
+        text-transform: uppercase;
+        font-family: "Proxima Nova W05 Black", Arial, sans-serif;
+        text-align: center;
+        font-size: 2.25rem;
+        line-height: 2rem;
+        letter-spacing: 0;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 4rem;
+            line-height: 4rem;
+        }
+    }
+
+    h2 {
+        color: $project-pink;
+        font-family: "Proxima Nova W05 Black", Arial, sans-serif;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        letter-spacing: 0;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 3rem;
+            line-height: 3rem;
+        }
+    }
+
+    h3 {
+        color: $project-pink;
+        text-transform: uppercase;
+        font-family: "Proxima Nova W05 Bold", Arial, sans-serif;
+        text-align: center;
+        letter-spacing: 0;
+    }
+
+    .container--pink-shape {
+        background: $project-pink;
+        padding: 2rem 1rem;
+        color: white;
+
+        @include media-breakpoint-up(xxl) {
+            padding: 4rem 2rem;
+            background: url('../images/pink-shape.svg') center center no-repeat;
+            background-size: 100%;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1rem;
+            margin: 0;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 1.5rem;
+                line-height: 1.75rem;
+            }
+        }
+
+        .book-title {
+            color: white !important;
+        }
+    }
+
+    .btn--book-now, .btn--ticketmaster, .btn--call, .btn--person, .btn--mail {
+        font-size: 1.25rem;
+        padding: 10px 0 10px 50px;
+
+        @include media-breakpoint-up(sm) {
+            //font-size: 1.65rem;
+        }
+
+        @include media-breakpoint-up(lg) {
+            padding: 13px 0 13px 50px;
+        }
+
+        @include media-breakpoint-up(xl) {
+            font-size: 1.5rem;
+            padding: 13px 0 13px 50px;
+        }
+
+        &:before {
+            @include media-breakpoint-up(lg) {
+                left: 35px;
+            }
+
+            @include media-breakpoint-up(xl) {
+                left: 15px;
+            }
+
+            @include media-breakpoint-up(xxl) {
+                left: 35px;
+            }
+
+            @include media-breakpoint-up(xxxl) {
+                left: 25px;
+            }
+
+            @include media-breakpoint-down(sm) {
+                left: 20px;
+            }
+        }
+
+        &:hover {
+            background: url('../images/buttons/book-now-rectangle-hover-black.svg') no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    .clock {
+        @include media-breakpoint-down(sm) {
+            display: block;
+            * {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        &__item {
+            max-width: 350px;
+            width: 100%;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            @include media-breakpoint-up(md) {
+                display: block;
+                text-align: center;
+            }
+        }
+
+        &__img {
+            max-width: 140px;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+        &__time {
+            color: $project-pink;
+            text-transform: uppercase;
+            font-family: "Proxima Nova W05 Black", Arial, sans-serif;
+            font-size: 1.75rem;
+            line-height: 1.5rem;
+            letter-spacing: 0;
+            margin-bottom: 1rem;
+
+            @include media-breakpoint-up(md) {
+                margin-bottom: 2rem;
+            }
+
+            @include media-breakpoint-up(xl) {
+                font-size: 3rem;
+                line-height: 3rem;
+            }
+        }
+
+        &__dates {
+            margin: 0;
+        }
+
+        &__copy {
+            min-width: 170px;
+        }
+    }
+
+    .group {
+        @include media-breakpoint-down(lg) {
+            display: block;
+            * {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        &__item {
+            max-width: 350px;
+            width: 100%;
+            text-align: center;
+        }
+
+        &__img {
+            max-width: 200px;
+            width: 100%;
+            margin-bottom: 1rem;
+
+            @include media-breakpoint-up(lg) {
+                max-width: 300px;
+                margin-bottom: 2rem;
+            }
+        }
+
+        &__copy {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 2.25rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+        &__buttons {
+            @include media-breakpoint-down(sm) {
+                display: block;
+            }
+        }
+    }
+}
