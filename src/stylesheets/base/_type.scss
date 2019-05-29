@@ -60,6 +60,10 @@ p {
     &--white {
         color: white !important;
     }
+
+    &--bolder {
+        font-family: "Proxima Nova W05 Black", Arial, sans-serif;
+    }
 }
 
 .link {
