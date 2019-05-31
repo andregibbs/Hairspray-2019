@@ -18,7 +18,7 @@ h3 {
 p {
     font-size: 1.125rem;
     line-height: normal;
-    font-family: "Proxima Nova W05", Arial, sans-serif;
+    font-family: "Proxima Nova W05 Regular", Arial, sans-serif;
 
     @include media-breakpoint-up(lg) {
         font-size: 1.5rem;
@@ -59,6 +59,10 @@ p {
 
     &--white {
         color: white !important;
+    }
+
+    &--bold {
+        font-family: "Proxima Nova W05 Bold", Arial, sans-serif;
     }
 
     &--bolder {
