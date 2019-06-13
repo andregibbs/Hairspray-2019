@@ -34,12 +34,12 @@
 }
 
 
-
 @font-face {
     font-family: 'BurbankBigCondensed-Bold';
-    src: url('fonts/BurbankBigCondensed-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/BurbankBigCondensed-Bold.otf')  format('opentype'),
-           url('fonts/BurbankBigCondensed-Bold.woff') format('woff'), url('fonts/BurbankBigCondensed-Bold.ttf')  format('truetype'), url('fonts/BurbankBigCondensed-Bold.svg#fonts/BurbankBigCondensed-Bold') format('svg');
+    src: url('fonts/BurbankBigCondensed-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/BurbankBigCondensed-Bold.otf') format('opentype'),
+    url('fonts/BurbankBigCondensed-Bold.woff') format('woff'), url('fonts/BurbankBigCondensed-Bold.ttf') format('truetype'), url('fonts/BurbankBigCondensed-Bold.svg#fonts/BurbankBigCondensed-Bold') format('svg');
     font-weight: normal;
     font-style: normal;
-  }
+    font-display: swap;
+}
   
