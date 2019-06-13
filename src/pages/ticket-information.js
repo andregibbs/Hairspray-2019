@@ -29,21 +29,20 @@ const TicketInfoPage = () => (
                 <Container fluid={true} className="py-2 py-lg-5">
                     <Container>
                         <h1>Ticket information</h1>
-                        <h3>12 weeks only | 23 April – 19 July</h3>
+                        <p className="text-center text-uppercase"><strong>12 weeks only | 23 April – 19 July</strong></p>
                     </Container>
                 </Container>
                 <div className="container--pink-shape">
-                    <img src={threeWaysXs} alt="" title="" className="img-fluid d-block d-lg-none mx-auto"/>
-                    <img src={threeWays} alt="" title="" className="img-fluid d-none d-lg-block mx-auto"/>
+                    <h2 className="heading--xl text--white text-center">3&nbsp;WAYS&nbsp;TO BOOK&nbsp;TICKETS</h2>
                     <Row className="text-center mt-4 d-none d-xl-flex text-center">
                         <Col xs={12} xl={4}>
-                            <h2 className="book-title text-uppercase">Online</h2>
+                            <h3 className="book-title text-uppercase">Online</h3>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <h2 className="book-title text-uppercase">Call</h2>
+                            <h3 className="book-title text-uppercase">Call</h3>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <h2 className="book-title text-uppercase">In person</h2>
+                            <h3 className="book-title text-uppercase">In person</h3>
                         </Col>
                     </Row>
                     <Row className="text-center d-none d-xl-flex text-center">
@@ -82,7 +81,7 @@ const TicketInfoPage = () => (
                     </Row>
                     <Row className="d-xl-none text-center mx-auto mt-4">
                         <Col xs={12}>
-                            <h2 className="book-title text-uppercase">Online</h2>
+                            <h3 className="book-title text-uppercase">Online</h3>
                             <a
                                 href="https://londoncoliseum.org/whats-on/hairspray/"
                                 target="_blank" rel="noreferrer noopener"
@@ -91,7 +90,7 @@ const TicketInfoPage = () => (
                             </a>
 
                             <p>&nbsp;</p>
-                            <h2 className="book-title text-uppercase">Call</h2>
+                            <h3 className="book-title text-uppercase">Call</h3>
                             <a
                                 href="tel:+442078459300"
                                 target="_blank" rel="noreferrer noopener"
@@ -100,7 +99,7 @@ const TicketInfoPage = () => (
                             </a>
                             <p className="text--faded-pink">A £2.25 booking fee applies to online & phone bookings</p>
                             <p>&nbsp;</p>
-                            <h2 className="book-title text-uppercase">In person</h2>
+                            <h3 className="book-title text-uppercase">In person</h3>
                             <a
                                 href="https://goo.gl/maps/cjgp5krePeyiRWvM6"
                                 target="_blank" rel="noreferrer noopener"
@@ -113,7 +112,7 @@ const TicketInfoPage = () => (
                 </div>
                 <Container fluid={true} className="py-4 py-lg-5">
                     <Container>
-                        <h2>Performance schedule</h2>
+                        <h3>Performance schedule</h3>
                         <div className="flex clock pt-4 pt-lg-5">
                             <div className="clock__item">
                                 <div>
@@ -149,21 +148,21 @@ const TicketInfoPage = () => (
                     </Container>
                 </Container>
                 <div className="container--lighter-blue text-center">
-                    <img src={groupRates} alt="Group rates" title="Group rates" className="group-rates img-fluid" />
-                    <h2 className="text--white my-4">Book by 23 October 2019 and save!</h2>
+                    <h2 className="heading--xl text--white text-center line-half">Group rates</h2>
+                    <h3 className="text--white my-2">Book by 23 October 2019 and save!</h3>
                     <div className="flex group pt-2 pt-lg-5">
                         <div className="group__item mb-lg-5">
-                            <img src={groups10} alt="Groups 10+" title="Groups 10+" className="group__img img-fluid" />
+                            <h4 className="heading--md text-uppercase text--purple">Groups 10+</h4>
                             <p className="group__copy">Band A just <strong>£55</strong></p>
                             <p className="group__copy">Band B just <strong>£45</strong></p>
                         </div>
                         <div className="group__item mt-4 mt-md-5 mt-lg-0 mb-lg-5">
-                            <img src={groups20} alt="Groups 20+" title="Groups 20+" className="group__img img-fluid" />
+                        <h4 className="heading--md text-uppercase text--purple">Groups 20+</h4>
                             <p className="group__copy">Band A just <strong>£50</strong></p>
                             <p className="group__copy">Band B just <strong>£40</strong></p>
                         </div>
                         <div className="group__item mt-4 mt-md-5 mt-lg-0 mb-lg-5">
-                            <img src={groups50} alt="Groups 50+" title="Groups 50+" className="group__img img-fluid" />
+                        <h4 className="heading--md text-uppercase text--purple">Groups 50+</h4>
                             <p className="group__copy">Band A just <strong>£45</strong></p>
                             <p className="group__copy">Band B just <strong>£35</strong></p>
                         </div>
@@ -184,7 +183,7 @@ const TicketInfoPage = () => (
                     <p className="text--faded-blue">Valid Tuesday to Thursday - exclusions apply. Band A usually £87.50 and Band B usually £55</p>
                 </div>
                 <div className="container--light-blue text-center">
-                    <img src={access} alt="Access" title="Access" className="access img-fluid" />
+                    <h2 className="heading--md text--white text-center line-half">Access</h2>
                     <div className="flex group__buttons pt-4 py-lg-5">
                         <a
                             href="tel:+442078459300"

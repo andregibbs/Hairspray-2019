@@ -33,13 +33,13 @@ const AboutPage = () => (
                           <img src={leftimg} alt="" title="" className="img-fluid d-none d-xl-block mx-auto"/>
                         </Col>
                         <Col xs={12} xl={4}>
-                           <img src={lookBack} alt="" title="" className="img-fluid pb-5 mx-auto"/>
+                           <h2 className="heading--xl text--purple">LOOK WHO'S BACK!</h2>
                            <br /><br/>
                             <p><span className="text--bold">Don’t miss Michael Ball reprising his Olivier Award-winning role as Edna Turnblad in Hairspray the Musical. The huge-hearted, smash-hit musical arrives at the magnificent London Coliseum from next April for a strictly limited 12-week season.</span></p> 
                             <p>Baltimore, 1962. Tracy Turnblad is a big girl with big hair and big dreams. Can she make it on the local TV dance show, win the heart of teen heartthrob Link Larkin and bring everyone together – whatever their colour, size or hairdo? Well if you want a change, you’ve really got to shake things up!</p> 
                             <p>From the original award-winning creative team of director <strong>Jack O’Brien</strong> and choreographer <strong>Jerry Mitchell</strong>, and featuring the infectiously feel-good songs <strong className="text--blue text--bolder">Good Morning Baltimore</strong>, <strong className="text--blue text--bolder">You Can’t Stop the Beat</strong> and <strong className="text--blue text--bolder">Big, Blonde and Beautiful</strong> this inspirational, fun-loving and fabulously uplifting musical sensation is back and bigger than ever.</p>
                             <p>It’s the show that gives maximum lift… <br/>but for 12 weeks only.</p>
-                            <h2 className="book-title">Don't miss out</h2>
+                            <h3 className="book-title">Don't miss out</h3>
                              <a
                                 href="https://londoncoliseum.org/whats-on/hairspray/"
                                 target="_blank" rel="noreferrer noopener"
@@ -55,17 +55,16 @@ const AboutPage = () => (
                 </Container>
 
                 <div className="container--pink-shape">
-                    <img src={threeWaysXs} alt="" title="" className="img-fluid d-block d-lg-none mx-auto"/>
-                    <img src={threeWays} alt="" title="" className="img-fluid d-none d-lg-block mx-auto"/>
+                    <h2 className="heading--xl text--white text-center">3&nbsp;WAYS&nbsp;TO BOOK&nbsp;TICKETS</h2>
                     <Row className="text-center mt-4 d-none d-xl-flex text-center">
                         <Col xs={12} xl={4}>
-                            <h2 className="book-title text-uppercase">Online</h2>
+                            <h3 className="book-title text-uppercase">Online</h3>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <h2 className="book-title text-uppercase">Call</h2>
+                            <h3 className="book-title text-uppercase">Call</h3>
                         </Col>
                         <Col xs={12} xl={4}>
-                            <h2 className="book-title text-uppercase">In person</h2>
+                            <h3 className="book-title text-uppercase">In person</h3>
                         </Col>
                     </Row>
                     <Row className="text-center d-none d-xl-flex text-center">
@@ -104,7 +103,7 @@ const AboutPage = () => (
                     </Row>
                     <Row className="d-xl-none text-center mx-auto mt-4">
                         <Col xs={12}>
-                            <h2 className="book-title text-uppercase">Online</h2>
+                            <h3 className="book-title text-uppercase">Online</h3>
                             <a
                                 href="https://londoncoliseum.org/whats-on/hairspray/"
                                 target="_blank" rel="noreferrer noopener"
@@ -113,7 +112,7 @@ const AboutPage = () => (
                             </a>
 
                             <p>&nbsp;</p>
-                            <h2 className="book-title text-uppercase">Call</h2>
+                            <h3 className="book-title text-uppercase">Call</h3>
                             <a
                                 href="tel:+442078459300"
                                 target="_blank" rel="noreferrer noopener"
@@ -122,7 +121,7 @@ const AboutPage = () => (
                             </a>
                             <p className="text--faded-pink">A £2.25 booking fee applies to online & phone bookings</p>
                             <p>&nbsp;</p>
-                            <h2 className="book-title text-uppercase">In person</h2>
+                            <h3 className="book-title text-uppercase">In person</h3>
                             <a
                                 href="https://goo.gl/maps/cjgp5krePeyiRWvM6"
                                 target="_blank" rel="noreferrer noopener"

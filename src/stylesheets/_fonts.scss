@@ -32,3 +32,14 @@
     src: url("fonts/baf77aae-6904-44b2-a4bc-01ba9998cd41.eot?#iefix") format("eot"), url("fonts/fe7a1b50-a80f-4c74-9aa1-dd758277036c.woff2") format("woff2"), url("fonts/2322a12f-be08-4e73-b44f-0f42eb551213.woff") format("woff"), url("fonts/f3e177b2-fe6a-4405-bf0b-b05e4faddc4a.ttf") format("truetype");
     font-display: swap;
 }
+
+
+
+@font-face {
+    font-family: 'BurbankBigCondensed-Bold';
+    src: url('fonts/BurbankBigCondensed-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/BurbankBigCondensed-Bold.otf')  format('opentype'),
+           url('fonts/BurbankBigCondensed-Bold.woff') format('woff'), url('fonts/BurbankBigCondensed-Bold.ttf')  format('truetype'), url('fonts/BurbankBigCondensed-Bold.svg#fonts/BurbankBigCondensed-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

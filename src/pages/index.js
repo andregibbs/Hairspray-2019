@@ -67,11 +67,10 @@ class IndexPage extends Component {
                 <section className="page HomePage">
                     <div className="HomePage__content">
                         <h1 className="sr-only">Hairspray The Musical</h1>
-                        <h2 className="sr-only">She is back to shake up the West end</h2>
+                       
                         <Container fluid={true} className="pb-1 mb-n5">
                             <Container>
-                                <img src={sheIsBack} className="img-fluid sheIsBack" alt="She is back to shake up the West end"
-                                     title="She is back to shake up the West end"/>
+                                <h2 className="heading--lg text--pink">SHE IS BACK TO SHAKE UP THE WEST END</h2>
                             </Container>
                         </Container>
                         <div className="pt-4 logo mx-auto">
@@ -81,26 +80,26 @@ class IndexPage extends Component {
                         </div>
                         <Container fluid={true} className="pb-2 pt-1 d-block mt-n4 mt-sm-n1 mt-sm-n4 position-relative z-index-2">
                             <Container>
-                                <img src={starringXs} className="img-fluid mx-auto d-block d-sm-none"
-                                     alt="Starring Michael Ball as Edna Turnblad"
-                                     title="Starring Michael Ball as Edna Turnblad"/>
+                              
+                                     <h3 className="mx-auto d-block d-sm-none"><span className="heading--sm text--pink">Starring</span><br />
+                                     <span className="heading--name text--pink text-uppercase">Michael Ball </span> 
+                                     <span className="heading--sm text--pink">as Edna Turnblad</span></h3>
                                 <Row className="d-none d-sm-flex mb-n5 d-xl-none">
                                     <Col sm={6}>
-                                        <img src={starring} className="img-fluid mx-auto starring"
-                                             alt="Starring Michael Ball as Edna Turnblad"
-                                             title="Starring Michael Ball as Edna Turnblad"/>
+                                        
+                                        <h3 className="line-base"><span className="heading--sm text--pink">Starring</span><br />
+                                        <span className="heading--lg text--pink text-uppercase">Michael Ball</span><br />
+                                        <span className="heading--sm text--pink">as Edna Turnblad</span></h3>
                                         <button
                                             onClick={this.toggleVideoModal}
-                                            className="btn btn--watch-trailer mt-3">
+                                            className="btn btn--watch-trailer mt-2">
                                             Watch trailer
                                         </button>
                                     </Col>
                                     <Col sm={6}>
-                                        <img src={limitedSeason} className="img-fluid mx-auto limitedSeason"
-                                             alt="Limited season begins april 2020 at the London Coliseum"
-                                             title="Limited season begins april 2020 at the London Coliseum"/>
-
-                                        {/*<p className="btn btn--on-sale">On Sale Friday 10AM</p>*/}
+                                        <h3 className="mx-auto"><span className="heading--sm text--pink text-uppercase">Limited season<br />
+                                        begins april 2020</span><br />
+                                        <span className="heading--sm text--pink">at the London Coliseum</span></h3>
                                         <a
                                             href="https://londoncoliseum.org/whats-on/hairspray/"
                                             rel="noreferrer noopener" target="_blank"
@@ -121,13 +120,14 @@ class IndexPage extends Component {
                                 className="btn btn--book-now mt-n2 d-sm-none">
                                 Book now
                             </a>
-                            {/*<p className="btn d-sm-none btn--on-sale">On Sale Friday 10AM</p>*/}
+                            {/*<p className="btn d-sm-none btn--on-sale">On Sale Friday 10AM</p>*/} 
+                            {/* Mobile */}
                             <div className="d-none d-xl-block px-3">
                                 <Row>
                                     <Col xl={3} className="my-auto">
-                                        <img src={starring} className="img-fluid mx-auto starring"
-                                             alt="Starring Michael Ball as Edna Turnblad"
-                                             title="Starring Michael Ball as Edna Turnblad"/>
+                                        <h3 className="mx-auto"><span className="heading--sm text--pink">Starring</span><br />
+                                        <span className="heading--lg text--pink text-uppercase">Michael Ball</span><br />
+                                        <span className="heading--sm text--pink">as Edna Turnblad</span></h3>
                                         <button
                                             onClick={this.toggleVideoModal}
                                             className="btn btn--watch-trailer mt-3">
@@ -138,9 +138,10 @@ class IndexPage extends Component {
                                         <Img critical={true} fadeIn={false} fluid={this.props.data.mainImgLg.childImageSharp.fluid} className="img-fluid mx-auto d-none d-lg-block mainImg" alt=""/>
                                     </Col>
                                     <Col xl={3} className="my-auto">
-                                        <img src={limitedSeason} className="img-fluid mx-auto limitedSeason"
-                                             alt="Limited season begins april 2020 at the London Coliseum"
-                                             title="Limited season begins april 2020 at the London Coliseum"/>
+                                        <h3 className="mx-auto"><span className="heading--sm text--pink text-uppercase">Limited season<br />
+                                        begins april 2020</span><br />
+                                        <span className="heading--sm text--pink">at the London Coliseum</span></h3>
+                                       
                                         <a
                                             href="https://londoncoliseum.org/whats-on/hairspray/"
                                             rel="noreferrer noopener" target="_blank"

@@ -94,21 +94,18 @@ class Header extends Component {
                      className={`nav ${navToggled ? 'active' : ''} ${collapsed ? 'collapsed' : ''}`}>
                     <ul className="nav__btns">
                         <li>
-                            <Link to="/" className="link home" activeClassName="active" title="Home">
-                                <div/>
-                                <span className="sr-only">Home</span>
+                            <Link to="/" className="link" activeClassName="active">
+                                Home
                             </Link>
                         </li>
                         <li>
-                            <Link to="/about/" activeClassName="active" className="link about" title="About">
-                                <div/>
-                                <span className="sr-only">About</span>
+                            <Link to="/about/" activeClassName="active" className="link">
+                                About
                             </Link>
                         </li>
                         <li>
-                            <Link to="/ticket-information/" activeClassName="active" className="link ticket-info" title="Ticket Information">
-                                <div/>
-                                <span className="sr-only">Ticket Information</span>
+                            <Link to="/ticket-information/" activeClassName="active" className="link">
+                                Ticket Information
                             </Link>
                         </li>
                         <li>
@@ -130,7 +127,7 @@ class Header extends Component {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="" target="_blank" rel="noopener noreferrer"
+                                    <a href="https://www.instagram.com/HairsprayLondon/" target="_blank" rel="noopener noreferrer"
                                        className="socialIcon socialIcon-instagram">
                                         <div className="btn-social instagram">
                                             <span className="sr-only">Instagram</span>

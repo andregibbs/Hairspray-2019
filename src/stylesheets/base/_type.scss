@@ -26,6 +26,37 @@ p {
     }
 }
 
+.heading {
+    &--xl {
+        font-size: calc(56px + (80 - 56) * ((100vw - 300px) / (1600 - 300)));
+        font-family: 'BurbankBigCondensed-Bold'!important;
+    }
+    &--lg {
+        font-size: calc(40px + (72 - 40) * ((100vw - 300px) / (1600 - 300)));
+        font-family: 'BurbankBigCondensed-Bold'!important;
+    }
+    &--md {
+        font-size: calc(36px + (60 - 36) * ((100vw - 300px) / (1600 - 300)));
+        font-family: 'BurbankBigCondensed-Bold'!important;
+    }
+    &--sm {
+        font-size: calc(20px + (42 - 20) * ((100vw - 300px) / (1600 - 300)));
+        font-family: 'BurbankBigCondensed-Bold'!important;
+    }
+    &--name {
+        font-size: calc(20px + (42 - 20) * ((100vw - 300px) / (1600 - 300)));
+        font-family: 'BurbankBigCondensed-Bold'!important;
+        @include media-breakpoint-up(sm) {
+            font-size: calc(30px + (72 - 30) * ((100vw - 300px) / (1600 - 300)));
+        }
+    }
+}
+.line-base {
+    line-height: 1;
+}
+.line-half {
+    line-height: 0.6;
+}
 .text {
     &--small {
         font-size: 0.875rem;
@@ -44,7 +75,9 @@ p {
             font-size: 1.125rem;
         }
     }
-
+    &--pink {
+        color: $project-pink !important;
+    }
     &--faded-pink {
         color: $project-light-pink !important;
     }
@@ -55,6 +88,10 @@ p {
 
     &--blue {
         color: $project-lighter-blue !important;
+    }
+
+    &--purple {
+        color: $project-purple !important;
     }
 
     &--white {

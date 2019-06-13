@@ -14,8 +14,8 @@
             line-height: 4rem;
         }
     }
-
-    h2 {
+    
+    h3 {
         color: $project-pink;
         font-family: "Proxima Nova W05 Black", Arial, sans-serif;
         text-align: center;
@@ -29,13 +29,13 @@
         }
     }
 
-    h3 {
-        color: $project-pink;
-        text-transform: uppercase;
-        font-family: "Proxima Nova W05 Bold", Arial, sans-serif;
-        text-align: center;
-        letter-spacing: 0;
-    }
+    // h3 {
+        // color: $project-pink;
+        // text-transform: uppercase;
+        // font-family: "Proxima Nova W05 Bold", Arial, sans-serif;
+        // text-align: center;
+        // letter-spacing: 0;
+    // }
 
     .container--pink-shape {
         background: $project-pink;

@@ -18,6 +18,14 @@
     h2 {
         color: $project-pink;
         text-transform: uppercase;
+        font-family: 'BurbankBigCondensed-Bold';
+        text-align: center;
+        letter-spacing: 0;
+    }
+
+    h3 {
+        color: $project-pink;
+        text-transform: uppercase;
         font-family: "Proxima Nova W05 Black", Arial, sans-serif;
         text-align: center;
         font-size: 1.5rem;
@@ -28,14 +36,6 @@
             font-size: 3rem;
             line-height: 3rem;
         }
-    }
-
-    h3 {
-        color: $project-pink;
-        text-transform: uppercase;
-        font-family: "Proxima Nova W05 Bold", Arial, sans-serif;
-        text-align: center;
-        letter-spacing: 0;
     }
 
     .container--pink-shape {
