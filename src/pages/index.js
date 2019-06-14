@@ -111,9 +111,9 @@ class IndexPage extends Component {
                             </Container>
                         </Container>
                         <div className="pb-4 pb-sm-0 mt-lg-n5">
-                            <Img critical={true} fadeIn={false} fluid={this.props.data.mainImgXs.childImageSharp.fluid} className="img-fluid mx-auto d-block d-sm-none mainImgXs" alt=""/>
-                            <Img critical={true} fadeIn={false} fluid={this.props.data.mainImgSm.childImageSharp.fluid} className="img-fluid mx-auto d-none d-sm-block d-lg-none" alt=""/>
-                            <Img critical={true} fadeIn={false} fluid={this.props.data.mainImgLg.childImageSharp.fluid} className="img-fluid mx-auto d-none d-lg-block d-xl-none mainImg" alt=""/>
+                            <Img critical={true} fadeIn={false} fluid={this.props.data.mainImgXs.childImageSharp.fluid} className="img-fluid mx-auto d-block d-sm-none mainImgXs"  alt="Hairspray"  title="Hairspray"/>
+                            <Img critical={true} fadeIn={false} fluid={this.props.data.mainImgSm.childImageSharp.fluid} className="img-fluid mx-auto d-none d-sm-block d-lg-none"  alt="Hairspray"  title="Hairspray"/>
+                            <Img critical={true} fadeIn={false} fluid={this.props.data.mainImgLg.childImageSharp.fluid} className="img-fluid mx-auto d-none d-lg-block d-xl-none mainImg"  alt="Hairspray"  title="Hairspray"/>
                             <a
                                 href="https://londoncoliseum.org/whats-on/hairspray/"
                                 rel="noreferrer noopener" target="_blank"

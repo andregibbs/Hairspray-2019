@@ -7,7 +7,7 @@ const Footer = () => (
     <Container fluid={true} className="footer pb-4 text-center">
         <Container>
             <a href="https://www.londoncoliseum.org/whats-on/hairspray/" target="_blank" rel="noreferrer noopener">
-                <img src={coliseum} alt="London Coliseum" className="img-fluid coliseum"/>
+                <img src={coliseum} alt="London Coliseum" className="img-fluid coliseum" title="London Coliseum"/>
                 <span className="sr-only">London Coliseum</span>
             </a>
 
