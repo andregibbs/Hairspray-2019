@@ -90,7 +90,17 @@ function seo({description, lang, meta, keywords, title}) {
                         : []
                 )
                 .concat(meta)}
-        />
+        >
+            <script type="application/ld+json">{`
+                {
+                    "@context": "https://schema.org/",
+                    "@type": "WebSite",
+                    "name": "Hairspray The Musical",
+                    "url": "https://www.hairspraythemusical.co.uk/"
+                }
+            `}
+            </script>
+        </Helmet>
     )
 }
 
