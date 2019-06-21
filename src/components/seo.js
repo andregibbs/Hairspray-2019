@@ -58,7 +58,7 @@ function seo({description, lang, meta, keywords, title}) {
                 },
                 {
                     property: `og:image`,
-                    content: data.site.siteMetadata.siteUrl + shareImg,
+                    content: site.siteMetadata.siteUrl + shareImg,
                 },
                 {
                     name: `twitter:image`,
