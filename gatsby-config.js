@@ -3,7 +3,7 @@ module.exports = {
         title: `Hairspray The Musical`,
         description: `Michael Ball is back to shake up the West End. From April for 12 weeks only. Book now!`,
         author: ``,
-        siteUrl: `https://www.hairspraythemusical.co.uk/`
+        siteUrl: `https://www.hairspraythemusical.co.uk`
     },
     plugins: [
         'gatsby-plugin-resolve-src',
