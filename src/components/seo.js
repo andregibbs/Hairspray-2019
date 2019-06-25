@@ -63,7 +63,7 @@ function seo({description, lang, meta, keywords, title}) {
                 },
                 {
                     name: `twitter:image`,
-                    content: shareImg,
+                    content: site.siteMetadata.siteUrl + shareImg,
                 },
                 {
                     name: `twitter:card`,
