@@ -109,6 +109,11 @@ class Header extends Component {
                             </Link>
                         </li>
                         <li>
+                            <Link to="/cast/" activeClassName="active" className="link">
+                                Cast
+                            </Link>
+                        </li>
+                        <li>
                             <ul className="nav__btns--social">
                                 <li>
                                     <a href="https://twitter.com/hairspraylondon" target="_blank" rel="noopener noreferrer"
