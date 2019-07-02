@@ -32,7 +32,7 @@ class Casts extends Component {
 
             setTimeout(() => {
                 window.scrollTo({
-                    top: collapseItem.offsetTop + 100,
+                    top: collapseItem.offsetTop + 200,
                     behavior: "smooth"
                 })
             }, 300)
@@ -76,17 +76,14 @@ class CustomCollapseItem extends Component {
                     className="c-collapse__item-trigger"
                     onClick={(e) => this.props.clickHandler(e, this.props.id, this.props.type)}>
                     <div className="casts-wrapper">
-                        <div className={`casts-img-wrapper ${this.props.data.name}`}>
-                            <div className="rectangle-cast">
-                            </div>
+                        <div className="casts-img-wrapper">
                             <img src={this.props.data.image.childImageSharp.fluid.src} alt={this.props.data.name}
                                  className="cast-img c-collapse__item-trigger-img"/>
-                            <img src={plusIcon} className="plus-icon" alt=""/>
                         </div>
                         <div className="casts-copy-wrapper">
                             <div>
-                                <p className="itc bigger font-weight-bold c-pink mt-2 mb-2 c-blue">{this.props.data.name}</p>
-                                <p className="knockout bigger mb-0 c-vivid-blue">{this.props.data.role}</p>
+                                <p className="bigger font-weight-bold mt-2 mb-2 ">{this.props.data.name}</p>
+                                <p className="bigger mb-0 ">{this.props.data.role}</p>
                             </div>
                         </div>
                     </div>
@@ -98,9 +95,9 @@ class CustomCollapseItem extends Component {
                 >
                     <div className="c-collapse__item-content-inner">
                         {this.props.data.name !== '' &&
-                        <p className="itc bigger font-weight-bold c-pink mt-2 mb-2 text-uppercase c-blue">{this.props.data.name}</p>
+                        <p className="bigger font-weight-bold mt-2 mb-2 text-uppercase">{this.props.data.name}</p>
                         }
-                        <p className="knockout bigger mb-0 c-vivid-blue">{this.props.data.role}</p>
+                        <p className="bigger mb-0 ">{this.props.data.role}</p>
                         {this.props.data.bio !== '' &&
                         <div className="casts-bio-wrapper" dangerouslySetInnerHTML={{__html: this.props.data.bio}}/>
                         }

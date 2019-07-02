@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Container} from 'reactstrap'
+import pointer from 'images/pointer.svg'
 
 class Creatives extends Component {
 
@@ -31,7 +32,7 @@ class Creatives extends Component {
 
             setTimeout(() => {
                 window.scrollTo({
-                    top: collapseItem.offsetTop + 100,
+                    top: collapseItem.offsetTop + -250,
                     behavior: "smooth"
                 })
             }, 300)
@@ -81,11 +82,13 @@ class CustomCollapseItem extends Component {
 
                         <div className={`casts-copy-wrapper ${this.props.data.background}`}>
                             <div>
-                                <p className="itc bigger font-weight-bold c-pink mt-2 mb-2 c-blue">{this.props.data.name}</p>
-                                <p className="knockout bigger mb-0 c-vivid-blue">{this.props.data.role}</p>
+                                <p className="bigger font-weight-bold mt-2 mb-2">{this.props.data.name}</p>
+                                <p className="bigger mb-0">{this.props.data.role}</p>
                             </div>
                         </div>
+
                     </div>
+                              <img src={pointer} className="pointer" alt=""/>
                 </div>
                 <div
                     className="c-collapse__item-content"
@@ -94,9 +97,9 @@ class CustomCollapseItem extends Component {
                 >
                     <div className="c-collapse__item-content-inner">
                         {this.props.data.name !== '' &&
-                            <p className="itc bigger font-weight-bold c-pink mt-2 mb-2 text-uppercase c-blue">{this.props.data.name}</p>
+                            <p className="font-weight-bold mt-2 mb-2 text-uppercase c-blue">{this.props.data.name}</p>
                         }
-                        <p className="knockout bigger mb-0 c-vivid-blue">{this.props.data.role}</p>
+                        <p className="mb-0">{this.props.data.role}</p>
                         {this.props.data.bio !== '' &&
                             <div className="casts-bio-wrapper" dangerouslySetInnerHTML={{ __html: this.props.data.bio }} />
                         }

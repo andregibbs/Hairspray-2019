@@ -94,7 +94,17 @@
 
     .top-logo {
       position: relative;
-      top: 70px;
+      top: 23px;
+      width: 300px;
+
+      @include media-breakpoint-up(md) {
+         width: 600px;
+      }
+
+      @include media-breakpoint-up(xl) {
+         top: 70px;
+         width: auto;
+      }
     }
 
     .btn--book-now, .btn--ticketmaster, .btn--call, .btn--person, .btn--mail {

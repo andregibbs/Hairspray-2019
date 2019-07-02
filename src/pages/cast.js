@@ -23,7 +23,7 @@ const CastPage = () => (
                     </Container>
                 </Container>
 
-                <img src={micheal} alt="" title="" className="img-fluid d-none d-xl-block mx-auto top-logo"/>
+                <img src={micheal} alt="" title="" className="img-fluid d-block mx-auto top-logo"/>
                  <div className="container--blue-shape text-center">
                     <p className="text--bold">MICHAEL BALL is Britain's leading musical theatre star, a double Olivier Award winner, multi-platinum recording artist and a hugely popular radio<br className="d-none d-xxl-block"/> and TV presenter. For 30 years Michael has been at the top of his game starring in musical theatre productions in the West End and on Broadway,<br className="d-none d-xxl-block"/> winning critical acclaim, a devoted following and awards for his stage work and recording career.</p>
                     <p>Let’s not be coy: Michael Ball has been, yes, having a ball. And even by his own prolific standards, the star of stage, screen, radio and record has<br className="d-none d-xxl-block"/> outdone himself in the last couple of years.</p>
