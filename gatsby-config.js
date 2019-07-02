@@ -38,6 +38,13 @@ module.exports = {
             },
         },
         {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                path: `${__dirname}/src/data/`,
+                name: `data`,
+            },
+        },
+        {
             resolve: `gatsby-plugin-google-tagmanager`,
             options: {
                 id: "GTM-NWNR8M5",

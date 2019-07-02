@@ -113,6 +113,11 @@ class Header extends Component {
                                 Cast
                             </Link>
                         </li>
+                         <li>
+                            <Link to="/creative/" activeClassName="active" className="link">
+                                Creative Team
+                            </Link>
+                        </li>
                         <li>
                             <ul className="nav__btns--social">
                                 <li>
