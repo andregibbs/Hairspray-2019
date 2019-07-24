@@ -172,8 +172,7 @@ class IndexPage extends Component {
 
                         <Container fluid={true} className="py-4 container--pink">
                             <Container>
-                                <p>The original award-winning production directed by Jack O’Brien and choreographed by
-                                    Jerry Mitchell</p>
+                                <p>The original award-winning production of Hairspray the Musical directed by Jack O’Brien and choreographed by Jerry Mitchell</p>
 
                                 <div className="d-block d-lg-none">
                                     <p>Book by Mark O’Donnell <br className="d-sm-none"/>
