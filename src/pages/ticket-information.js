@@ -199,12 +199,12 @@ const TicketInfoPage = () => (
                             020 7845 9300
                         </a>
                         <a
-                            href="mailto:access@eno.org"
+                            href="mailto:groups@eno.org"
                             className="btn btn--mail">
-                            access@eno.org
+                            groups@eno.org
                         </a>
                     </div>
-                    <p className="text--faded-blue">Valid Tuesday to Thursday - exclusions apply. Band A usually £87.50 and Band B usually £55</p>
+                    <p className="text--faded-blue">Valid Monday to Thursdays in the upper circle – exclusions apply.</p>
                 </div>
 
                 <div className="container--lighter-blue text-center">
