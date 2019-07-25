@@ -1,11 +1,7 @@
 import React, {Component} from 'react'
 import Layout from 'components/Layout'
 import {Container, Row, Col} from 'reactstrap'
-import {Link} from 'gatsby'
 import Footer from 'components/Footer'
-import threeWaysXs from 'images/3-ways-xs.svg'
-import threeWays from 'images/3-ways.svg'
-import lookBack from 'images/look-back.svg'
 import leftimg from 'images/MBH139516_RT.jpg'
 import rightimg from 'images/MBH139794_RT.jpg'
 

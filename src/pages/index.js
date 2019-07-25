@@ -9,11 +9,7 @@ import Footer from 'components/Footer'
 import Img from 'gatsby-image'
 import {graphql} from 'gatsby'
 import YoutubeModal from 'components/YoutubeModal/YoutubeModal'
-import sheIsBack from 'images/she-is-back.svg'
-import starringXs from 'images/starring-xs.svg'
-import starring from 'images/starring.svg'
 import limitedSeasonXs from 'images/limited-season-xs.svg'
-import limitedSeason from 'images/limited-season.svg'
 
 const headData = {
     title: 'Hairspray The Musical | Official London Site',
@@ -226,7 +222,7 @@ query {
     mainImgLg: file(relativePath: { eq: "Image-desktop.jpg" }) {
     	childImageSharp {
             fluid(maxWidth: 858) {
-                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluid_withWebp_noBase64
             
             }
         }
@@ -234,7 +230,7 @@ query {
 	mainImgSm: file(relativePath: { eq: "Image-tablet.jpg" }) {
     	childImageSharp {
             fluid(maxWidth: 766) {
-                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluid_withWebp_noBase64
             
             }
         }
@@ -242,7 +238,7 @@ query {
     mainImgXs: file(relativePath: { eq: "Image-mobile.jpg" }) {
     	childImageSharp {
             fluid(maxWidth: 575) {
-                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluid_withWebp_noBase64
             
             }
         }

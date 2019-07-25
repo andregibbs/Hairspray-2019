@@ -1,18 +1,10 @@
-import React, {Component} from 'react'
+import React from 'react'
 import Layout from 'components/Layout'
 import {Container, Row, Col} from 'reactstrap'
-import {Link} from 'gatsby'
 import Footer from 'components/Footer'
-import threeWaysXs from 'images/3-ways-xs.svg'
-import threeWays from 'images/3-ways.svg'
 import clock730 from 'images/icons/clock-730.svg'
 import clock300 from 'images/icons/clock-300.svg'
 import clock400 from 'images/icons/clock-400.svg'
-import groupRates from 'images/group-rates.svg'
-import access from 'images/access.svg'
-import groups10 from 'images/groups-10.svg'
-import groups20 from 'images/groups-20.svg'
-import groups50 from 'images/groups-50.svg'
 
 const headData = {
     title: 'Ticket info - Hairspray The Musical - London Coliseum',
