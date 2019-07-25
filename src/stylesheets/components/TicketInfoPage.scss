@@ -33,8 +33,24 @@
         letter-spacing: 0;
 
         @include media-breakpoint-up(lg) {
-            font-size: 3rem;
-            line-height: 3rem;
+            font-size: 2rem;
+            line-height: 2rem;
+        }
+    }
+
+    .call-email {
+        display: none;
+
+        @include media-breakpoint-up(md) {
+            display: block;
+            font-family: "Proxima Nova W05 Black", Arial, sans-serif;
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+
+        @include media-breakpoint-up(lg) {
+            font-size: 2rem;
+            line-height: 2.5rem;
         }
     }
 
@@ -206,6 +222,15 @@
         &__buttons {
             @include media-breakpoint-down(sm) {
                 display: block;
+            }
+
+            * {
+                max-width: 290px;
+                width: 100%;
+
+                @include media-breakpoint-up(lg) {
+                    max-width: 340px;
+                }
             }
         }
     }

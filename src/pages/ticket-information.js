@@ -148,9 +148,9 @@ const TicketInfoPage = () => (
                     </Container>
                 </Container>
                 <div className="container--lighter-blue text-center">
-                    <h2 className="heading--xl text--white text-center line-half">Group rates</h2>
+                    <h2 className="heading--xl text--white text-center">Group rates</h2>
                     <h3 className="text--white my-2">Book by 23 October 2019 and save!</h3>
-                    <div className="flex group pt-2 pt-lg-5">
+                    <div className="flex group pt-2 pt-lg-4">
                         <div className="group__item mb-lg-5">
                             <h4 className="heading--md text-uppercase text--purple">Groups 10+</h4>
                             <p className="group__copy">Band A just <strong>£55</strong></p>
@@ -167,6 +167,10 @@ const TicketInfoPage = () => (
                             <p className="group__copy">Band B just <strong>£35</strong></p>
                         </div>
                     </div>
+                    <div className="flex group__buttons">
+                        <div className="call-email font-weight-bold text-uppercase">Call</div>
+                        <div className="call-email font-weight-bold text-uppercase">Email</div>
+                    </div>
                     <div className="flex group__buttons pt-4 pt-lg-0 pb-4 pb-lg-5">
                         <a
                             href="tel:+442078459300"
@@ -182,9 +186,42 @@ const TicketInfoPage = () => (
                     </div>
                     <p className="text--faded-blue">Valid Tuesday to Thursday - exclusions apply. Band A usually £87.50 and Band B usually £55</p>
                 </div>
+
                 <div className="container--light-blue text-center">
-                    <h2 className="heading--md text--white text-center line-half">Access</h2>
-                    <div className="flex group__buttons pt-4 py-lg-5">
+                    <h2 className="heading--md text--white text-center">Education rate</h2>
+                    <div className="flex group pt-2 pt-lg-4">
+                        <div className="group__item mt-4 mt-md-5 mt-lg-0 mb-lg-3">
+                            <h4 className="heading--md text-uppercase text--purple">Groups 10+ £25</h4>
+                            <p>Plus one teacher goes free</p>
+                        </div>
+                    </div>
+                    <div className="flex group__buttons">
+                        <div className="call-email font-weight-bold text-uppercase">Call</div>
+                        <div className="call-email font-weight-bold text-uppercase">Email</div>
+                    </div>
+                    <div className="flex group__buttons pt-0 pb-lg-5">
+                        <a
+                            href="tel:+442078459300"
+                            target="_blank" rel="noreferrer noopener"
+                            className="btn btn--call">
+                            020 7845 9300
+                        </a>
+                        <a
+                            href="mailto:access@eno.org"
+                            className="btn btn--mail">
+                            access@eno.org
+                        </a>
+                    </div>
+                    <p className="text--faded-blue">Valid Tuesday to Thursday - exclusions apply. Band A usually £87.50 and Band B usually £55</p>
+                </div>
+
+                <div className="container--lighter-blue text-center">
+                    <h2 className="heading--md text--white text-center">Access</h2>
+                    <div className="flex group__buttons">
+                        <div className="call-email font-weight-bold text-uppercase">Call</div>
+                        <div className="call-email font-weight-bold text-uppercase">Email</div>
+                    </div>
+                    <div className="flex group__buttons pt-0 pb-lg-5">
                         <a
                             href="tel:+442078459300"
                             target="_blank" rel="noreferrer noopener"
