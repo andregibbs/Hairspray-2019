@@ -184,7 +184,7 @@ const TicketInfoPage = () => (
                     <div className="flex group pt-2 pt-lg-4">
                         <div className="group__item mt-4 mt-md-5 mt-lg-0 mb-lg-3">
                             <h4 className="heading--md text-uppercase text--purple">Groups 10+ £25</h4>
-                            <p>Plus one teacher goes free</p>
+                            <p>Plus one teacher goes free for every ten booked</p>
                         </div>
                     </div>
                     <div className="flex group__buttons">
