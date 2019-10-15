@@ -31,11 +31,10 @@ const AboutPage = () => (
                         <Col xs={12} xl={4}>
                            <h2 className="heading--xl text--purple">LOOK WHO'S BACK!</h2>
                            <br /><br/>
-                            <p><span className="text--bold">Don’t miss Michael Ball reprising his Olivier Award-winning role as Edna Turnblad in Hairspray the Musical. The huge-hearted, smash-hit musical arrives at the magnificent London Coliseum from next April for a strictly limited 12-week season.</span></p> 
+                            <p><span className="text--bold">Look who’s back! Don’t miss Michael Ball reprising his Olivier Award-winning role as Edna Turnblad in Hairspray the Musical. The huge-hearted, smash-hit musical arrives at the magnificent London Coliseum from next April for a limited season until 29 August 2020.</span></p> 
                             <p>Baltimore, 1962. Tracy Turnblad is a big girl with big hair and big dreams. Can she make it on the local TV dance show, win the heart of teen heartthrob Link Larkin and bring everyone together – whatever their colour, size or hairdo? Well if you want a change, you’ve really got to shake things up!</p> 
                             <p>From the original award-winning creative team of director <strong>Jack O’Brien</strong> and choreographer <strong>Jerry Mitchell</strong>, and featuring the infectiously feel-good songs <strong className="text--blue text--bolder">Good Morning Baltimore</strong>, <strong className="text--blue text--bolder">You Can’t Stop the Beat</strong> and <strong className="text--blue text--bolder">Big, Blonde and Beautiful</strong> this inspirational, fun-loving and fabulously uplifting musical sensation is back and bigger than ever.</p>
-                            <p>It’s the show that gives maximum lift… <br/>but for 12 weeks only.</p>
-                            <h3 className="book-title">Don't miss out</h3>
+                            <p>It’s the show that gives maximum lift<br/> so don’t miss out – book now!</p>
                              <a
                                 href="https://londoncoliseum.org/whats-on/hairspray/"
                                 target="_blank" rel="noreferrer noopener"

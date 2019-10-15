@@ -21,7 +21,7 @@ const TicketInfoPage = () => (
                 <Container fluid={true} className="py-2 py-lg-5">
                     <Container>
                         <h1>Ticket information</h1>
-                        <p className="text-center text-uppercase"><strong>12 weeks only | 23 April – 19 July</strong></p>
+                        <p className="text-center text-uppercase"><strong>LIMITED SEASON FROM 23 APRIL</strong></p>
                     </Container>
                 </Container>
                 <div className="container--pink-shape">
