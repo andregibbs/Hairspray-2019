@@ -32,7 +32,7 @@ class Casts extends Component {
 
             setTimeout(() => {
                 window.scrollTo({
-                    top: collapseItem.offsetTop + 200,
+                    top: collapseItem.offsetTop + -100,
                     behavior: "smooth"
                 })
             }, 300)
