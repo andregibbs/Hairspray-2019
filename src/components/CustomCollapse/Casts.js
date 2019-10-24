@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Container} from 'reactstrap'
 import pointer from 'images/pointer.svg'
+import closeIcon from 'images/buttons/close-btn.svg'
 
 class Casts extends Component {
 
@@ -97,6 +98,7 @@ class CustomCollapseItem extends Component {
                     id={`collapse${this.props.id}${this.props.type}`}
                 >
                     <div className="c-collapse__item-content-inner">
+
                         {this.props.data.name !== '' &&
                         <p className="bigger font-weight-bold mt-2 mb-2 text-uppercase">{this.props.data.name}</p>
                         }
@@ -104,6 +106,9 @@ class CustomCollapseItem extends Component {
                         {this.props.data.bio !== '' &&
                         <div className="casts-bio-wrapper py-5" dangerouslySetInnerHTML={{__html: this.props.data.bio}}/>
                         }
+                        <div className="w-100 text-center mt-n5">
+                        <img onClick={(e) => this.props.clickHandler(e, this.props.id, this.props.type)} class="close-icon d-none d-sm-inline-block" src={closeIcon} alt="close" />
+                        </div>
                     </div>
                 </div>
             </div>
