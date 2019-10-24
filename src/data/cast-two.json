@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Lizzie Bea",
+    "role": "Tracy Turnblads",
+    "image": "../images/cast/lizzie-bea.png",
+    "bio": "",
+    "background": "block-four"
+    
+  },
+  {
+    "name": "Marisha Wallace",
+    "role": "Motormouth Maybelle",
+    "image": "../images/cast/marisha-wallace.png",
+    "bio": "",
+    "background": "block-six"
+    
+  }
+]

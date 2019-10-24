@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Container} from 'reactstrap'
-import plusIcon from 'images/icons/plus.png'
+import pointer from 'images/pointer.svg'
 
 class Casts extends Component {
 
@@ -76,17 +76,20 @@ class CustomCollapseItem extends Component {
                     className="c-collapse__item-trigger"
                     onClick={(e) => this.props.clickHandler(e, this.props.id, this.props.type)}>
                     <div className="casts-wrapper">
+                        
                         <div className="casts-img-wrapper">
                             <img src={this.props.data.image.childImageSharp.fluid.src} alt={this.props.data.name}
                                  className="cast-img c-collapse__item-trigger-img"/>
                         </div>
-                        <div className="casts-copy-wrapper">
+                        <div className={`casts-copy-wrapper ${this.props.data.background}`}>
                             <div>
                                 <p className="bigger font-weight-bold mt-2 mb-2 ">{this.props.data.name}</p>
                                 <p className="bigger mb-0 ">{this.props.data.role}</p>
                             </div>
                         </div>
                     </div>
+
+                    <img src={pointer} className="pointer" alt=""/>
                 </div>
                 <div
                     className="c-collapse__item-content"
@@ -99,7 +102,7 @@ class CustomCollapseItem extends Component {
                         }
                         <p className="bigger mb-0 ">{this.props.data.role}</p>
                         {this.props.data.bio !== '' &&
-                        <div className="casts-bio-wrapper" dangerouslySetInnerHTML={{__html: this.props.data.bio}}/>
+                        <div className="casts-bio-wrapper py-5" dangerouslySetInnerHTML={{__html: this.props.data.bio}}/>
                         }
                     </div>
                 </div>
