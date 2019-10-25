@@ -21,7 +21,7 @@ const TicketInfoPage = () => (
                 <Container fluid={true} className="py-2 py-lg-5">
                     <Container>
                         <h1>Ticket information</h1>
-                        <p className="text-center text-uppercase"><strong>LIMITED SEASON FROM 23 APRIL</strong></p>
+                        <p className="text-center text-uppercase"><strong>LIMITED SEASON FROM 23 APRIL UNTIL 29 August 2020</strong></p>
                     </Container>
                 </Container>
                 <div className="container--pink-shape">
@@ -141,7 +141,8 @@ const TicketInfoPage = () => (
                 </Container>
                 <div className="container--lighter-blue text-center">
                     <h2 className="heading--xl text--white text-center">Group rates</h2>
-                    <h3 className="text--white my-2">Book by 23 October 2019 and save!</h3>
+                    <h3 className="text--white my-2">ACCELERATOR RATES AVAILABLE – SAVE UP TO £42.50 PER TICKET*</h3>
+                    <p>for 21 July - 29 August 2020 performances: <strong>book and pay by 20 December 2019</strong></p>
                     <div className="flex group pt-2 pt-lg-4">
                         <div className="group__item mb-lg-5">
                             <h4 className="heading--md text-uppercase text--purple">Groups 10+</h4>
@@ -157,6 +158,19 @@ const TicketInfoPage = () => (
                         <h4 className="heading--md text-uppercase text--purple">Groups 50+</h4>
                             <p className="group__copy">Band A just <strong>£45</strong></p>
                             <p className="group__copy">Band B just <strong>£35</strong></p>
+                        </div>
+                    </div>
+                    <h3 className="text--white my-2">STANDARD GROUP RATES – SAVE UP TO £32.50 PER TICKET*</h3>
+                    <div className="flex group pt-2 pt-lg-4">
+                        <div className="group__item mb-lg-5">
+                            <h4 className="heading--md text-uppercase text--purple">Groups 10+</h4>
+                            <p className="group__copy">Band A just <strong>£60</strong></p>
+                            <p className="group__copy">Band B just <strong>£50</strong></p>
+                        </div>
+                        <div className="group__item mt-4 mt-md-5 mt-lg-0 mb-lg-5">
+                        <h4 className="heading--md text-uppercase text--purple">Groups 20+</h4>
+                            <p className="group__copy">Band A just <strong>£55</strong></p>
+                            <p className="group__copy">Band B just <strong>£45</strong></p>
                         </div>
                     </div>
                     <div className="flex group__buttons">
@@ -176,7 +190,7 @@ const TicketInfoPage = () => (
                             groups@eno.org
                         </a>
                     </div>
-                    <p className="text--faded-blue">Valid Tuesday to Thursday - exclusions apply. Band A usually £87.50 and Band B usually £55</p>
+                    <p className="text--faded-blue">*Valid Tuesday to Thursday - exclusions apply. Band A usually £87.50 and Band B usually £55</p>
                 </div>
 
                 <div className="container--light-blue text-center">
