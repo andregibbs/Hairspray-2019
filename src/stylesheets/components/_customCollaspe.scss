@@ -261,6 +261,14 @@
           transform: translate(-50%, -50%);
         }
       }
+
+      &.creatives {
+        .pointer {
+          bottom: -45%;
+        }
+      }
+
+      
       .c-collapse__item-content {
         visibility: visible;
       }

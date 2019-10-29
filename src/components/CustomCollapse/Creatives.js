@@ -101,7 +101,7 @@ class CustomCollapseItem extends Component {
                         }
                         <p className="mb-0">{this.props.data.role}</p>
                         {this.props.data.bio !== '' &&
-                            <div className="casts-bio-wrapper" dangerouslySetInnerHTML={{ __html: this.props.data.bio }} />
+                            <div className="casts-bio-wrapper py-5" dangerouslySetInnerHTML={{ __html: this.props.data.bio }} />
                         }
                     </div>
                 </div>
