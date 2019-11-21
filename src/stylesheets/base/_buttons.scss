@@ -20,16 +20,16 @@
         }
     }
 
-    &--book-now, &--ticketmaster, &--call, &--person, &--mail, &--on-sale {
+    &--book-now, &--ticketmaster, &--call, &--person, &--mail, &--on-sale, &--download {
         font-family: "Proxima Nova W05 Black", Arial, sans-serif;
         position: relative;
         font-size: 1.65rem;
-        line-height: 1.65rem;
+        // line-height: 1.65rem;
         width: 100%;
         color: white;
         padding: 2px 0 5px 50px;
         max-width: 290px;
-        background: url('../images/buttons/book-now-rectangle.svg') no-repeat center center;
+        background: url('../images/buttons/watch-trailer-rectangle.svg') no-repeat center center;
         background-size: contain;
         transition: $transition-base;
 
@@ -60,7 +60,7 @@
             width: 50px;
             height: 50px;
             top: calc(50% - 3px);
-            left: 30px;
+            left: 15px;
             transform: translateY(-50%);
             transition: $transition-base;
         }
@@ -104,6 +104,18 @@
         &:before {
             background: url('../images/icons/mail.svg') no-repeat center center;
             background-size: 50px;
+        }
+    }
+    &--download {
+        &:before {
+            background: url('../images/icons/download.svg') no-repeat center center;
+            background-size: 50px;
+    }
+
+        &:hover {
+            &:before {
+                transform: translateY(-50%) ;
+            }
         }
     }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from 'components/Layout'
-import {Container, Row, Col} from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import Footer from 'components/Footer'
 import clock730 from 'images/icons/clock-730.svg'
 import clock300 from 'images/icons/clock-300.svg'
@@ -108,7 +108,7 @@ const TicketInfoPage = () => (
                         <div className="flex clock pt-4 pt-lg-5">
                             <div className="clock__item">
                                 <div>
-                                    <img src={clock730} className="clock__img" alt="7:30PM" title="7:30PM"/>
+                                    <img src={clock730} className="clock__img" alt="7:30PM" title="7:30PM" />
                                 </div>
                                 <div className="clock__copy">
                                     <p className="clock__time">7.30PM</p>
@@ -117,7 +117,7 @@ const TicketInfoPage = () => (
                             </div>
                             <div className="clock__item">
                                 <div>
-                                    <img src={clock300} className="clock__img" alt="3:00PM" title="3:00PM"/>
+                                    <img src={clock300} className="clock__img" alt="3:00PM" title="3:00PM" />
                                 </div>
                                 <div className="clock__copy">
                                     <p className="clock__time">3.00PM</p>
@@ -126,7 +126,7 @@ const TicketInfoPage = () => (
                             </div>
                             <div className="clock__item">
                                 <div>
-                                    <img src={clock400} className="clock__img" alt="4:00PM" title="4:00PM"/>
+                                    <img src={clock400} className="clock__img" alt="4:00PM" title="4:00PM" />
                                 </div>
                                 <div className="clock__copy">
                                     <p className="clock__time">4.00PM</p>
@@ -150,12 +150,12 @@ const TicketInfoPage = () => (
                             <p className="group__copy">Band B just <strong>£45</strong></p>
                         </div>
                         <div className="group__item mt-4 mt-md-5 mt-lg-0 mb-lg-5">
-                        <h4 className="heading--md text-uppercase text--purple">Groups 20+</h4>
+                            <h4 className="heading--md text-uppercase text--purple">Groups 20+</h4>
                             <p className="group__copy">Band A just <strong>£50</strong></p>
                             <p className="group__copy">Band B just <strong>£40</strong></p>
                         </div>
                         <div className="group__item mt-4 mt-md-5 mt-lg-0 mb-lg-5">
-                        <h4 className="heading--md text-uppercase text--purple">Groups 50+</h4>
+                            <h4 className="heading--md text-uppercase text--purple">Groups 50+</h4>
                             <p className="group__copy">Band A just <strong>£45</strong></p>
                             <p className="group__copy">Band B just <strong>£35</strong></p>
                         </div>
@@ -168,7 +168,7 @@ const TicketInfoPage = () => (
                             <p className="group__copy">Band B just <strong>£50</strong></p>
                         </div>
                         <div className="group__item mt-4 mt-md-5 mt-lg-0 mb-lg-5">
-                        <h4 className="heading--md text-uppercase text--purple">Groups 20+</h4>
+                            <h4 className="heading--md text-uppercase text--purple">Groups 20+</h4>
                             <p className="group__copy">Band A just <strong>£55</strong></p>
                             <p className="group__copy">Band B just <strong>£45</strong></p>
                         </div>
@@ -219,6 +219,21 @@ const TicketInfoPage = () => (
                         </a>
                     </div>
                     <p className="text--faded-blue">Valid Monday to Thursdays in the upper circle – exclusions apply.</p>
+
+                    <Row>
+                        <Col lg={5} className="py-5 w-100 mx-auto">
+                            <h4 className="text--bolder text-uppercase text--purple">SECONDARY EDUCATION PACK (KS3/KS4)</h4>
+                            {/* <img src={poster} alt="camera" className="img-fluid p-3 pb-lg-5" /> */}
+                            <div className="pb-4 pb-lg-0">
+                                <a
+                                    href="../docs/HAIRSPRAY_Secondary_Education_Lesson_Plans.zip"
+                                    rel="noreferrer noopener" target="_blank"
+                                    className="btn btn--download mt-3 mt-xl-4 d-block mx-auto">
+                                    Download
+                                        </a>
+                            </div>
+                        </Col>
+                    </Row>
                 </div>
 
                 <div className="container--lighter-blue text-center">
@@ -241,7 +256,7 @@ const TicketInfoPage = () => (
                         </a>
                     </div>
                 </div>
-                <Footer/>
+                <Footer />
             </div>
         </section>
     </Layout>
