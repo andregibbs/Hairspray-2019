@@ -94,7 +94,7 @@ class IndexPage extends Component {
                                     </Col>
                                     <Col sm={6}>
                                         <h3 className="mx-auto"><span className="heading--sm text--pink text-uppercase">Limited season<br />
-                                        begins april 2020</span><br />
+                                        begins 23 april</span><br />
                                         <span className="heading--sm text--pink">at the London Coliseum</span></h3>
                                         <a
                                             href="https://londoncoliseum.org/whats-on/hairspray/"
@@ -135,7 +135,7 @@ class IndexPage extends Component {
                                     </Col>
                                     <Col xl={3} className="my-auto">
                                         <h3 className="mx-auto"><span className="heading--sm text--pink text-uppercase">Limited season<br />
-                                        begins april 2020</span><br />
+                                        begins 23 april</span><br />
                                         <span className="heading--sm text--pink">at the London Coliseum</span></h3>
                                        
                                         <a
