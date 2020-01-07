@@ -7,7 +7,7 @@ import Cast from 'components/CustomCollapse/Casts'
 
 const headData = {
     title: 'Cast Team - Hairspray The Musical - London Coliseum',
-    description: 'Arriving at the London Coliseum from next April for a strictly limited 12-week season. Don’t miss out – book now!',
+    description: 'Arriving at the London Coliseum from next April for a strictly limited 18-week season. Don’t miss out – book now!',
 }
 
 const CastPage = ({data}) => (

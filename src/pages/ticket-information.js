@@ -8,7 +8,7 @@ import clock400 from 'images/icons/clock-400.svg'
 
 const headData = {
     title: 'Ticket info - Hairspray The Musical - London Coliseum',
-    description: 'Arriving at the London Coliseum from next April for a strictly limited 12-week season. Don’t miss out – book now!',
+    description: 'Arriving at the London Coliseum from next April for a strictly limited 18-week season. Don’t miss out – book now!',
 }
 
 const TicketInfoPage = () => (
@@ -141,7 +141,7 @@ const TicketInfoPage = () => (
                 </Container>
                 <div className="container--lighter-blue text-center">
                     <h2 className="heading--xl text--white text-center">Group rates</h2>
-                    <h3 className="text--white my-2">ACCELERATOR RATES AVAILABLE – SAVE UP TO £42.50 PER TICKET*</h3>
+                    {/* <h3 className="text--white my-2">ACCELERATOR RATES AVAILABLE – SAVE UP TO £42.50 PER TICKET*</h3>
                     <p>for 21 July - 29 August 2020 performances: <strong>book and pay by 20 December 2019</strong></p>
                     <div className="flex group pt-2 pt-lg-4">
                         <div className="group__item mb-lg-5">
@@ -159,8 +159,8 @@ const TicketInfoPage = () => (
                             <p className="group__copy">Band A just <strong>£45</strong></p>
                             <p className="group__copy">Band B just <strong>£35</strong></p>
                         </div>
-                    </div>
-                    <h3 className="text--white my-2">STANDARD GROUP RATES – SAVE UP TO £32.50 PER TICKET*</h3>
+                    </div> */}
+                    <h3 className="text--white my-2">SAVE UP TO £32.50 PER TICKET*</h3>
                     <div className="flex group pt-2 pt-lg-4">
                         <div className="group__item mb-lg-5">
                             <h4 className="heading--md text-uppercase text--purple">Groups 10+</h4>

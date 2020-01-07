@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 
 const headData = {
     title: 'Cookie Policy - Hairspray The Musical - London Coliseum',
-    description: 'View the cookie policy for Hairspray The Musical. Michael Ball is back to shake up the West End. From April for 12 weeks only. Book now!',
+    description: 'View the cookie policy for Hairspray The Musical. Michael Ball is back to shake up the West End. From April for 18 weeks only. Book now!',
 };
 
 const Privacy = () => (
