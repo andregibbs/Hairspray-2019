@@ -79,6 +79,28 @@
         .book-title {
             color: white !important;
         }
+
+        &__angle {
+            background: $project-pink;
+            padding: 2rem 1rem;
+            color: white;
+            
+            @include media-breakpoint-up(xxl) {
+                padding: 4rem 2rem;
+                background: url('../images/pink-shape2.svg') center center no-repeat;
+                // background-size: 100% 100%;
+            }
+                
+            img {
+                width: 100%;
+            }
+            h3 {
+                text-align: center;
+                @include media-breakpoint-up(lg) {
+                    text-align: left;
+                }
+            }
+        }
     }
 
     .btn--book-now, .btn--ticketmaster, .btn--call, .btn--person, .btn--mail {
