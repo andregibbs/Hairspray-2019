@@ -109,6 +109,11 @@ class Header extends Component {
                             </Link>
                         </li>
                         <li>
+                            <Link to="/gift-vouchers-and-packages/" activeClassName="active" className="link">
+                               Gift Vouchers & Packages
+                            </Link>
+                        </li>
+                        <li>
                             <Link to="/cast/" activeClassName="active" className="link">
                                 Cast
                             </Link>
