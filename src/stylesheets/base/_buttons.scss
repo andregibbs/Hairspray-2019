@@ -19,8 +19,28 @@
             font-size: 1.125rem;
         }
     }
+    &--sign-up {
+        font-family: "Proxima Nova W05", Arial, sans-serif;
+        width: 100%;
+        color: white;
+        padding: 20px 10px;
+        max-width: 290px;
+        background: url('../images/buttons/sign-up-rectangle.svg') no-repeat center center;
+        background-size: cover;
+        text-transform: none;
 
-    &--book-now, &--ticketmaster, &--call, &--person, &--mail, &--on-sale, &--download {
+        @include media-breakpoint-up(sm) {
+            font-size: 1.125rem;
+        }
+    }
+    &--book-now,
+    &--ticketmaster,
+    &--call,
+    &--person,
+    &--mail,
+    &--hotel,
+    &--on-sale,
+    &--download {
         font-family: "Proxima Nova W05 Black", Arial, sans-serif;
         position: relative;
         font-size: 1.65rem;
@@ -111,12 +131,40 @@
             background: url('../images/icons/download.svg') no-repeat center center;
             background-size: 50px;
     }
-
         &:hover {
             &:before {
                 transform: translateY(-50%) ;
             }
         }
+    }
+    &--hotel {
+        font-size: 1.4rem;
+        padding: 15px;
+        height: 100px;
+        background: url('../images/buttons/hotel-shape.svg') no-repeat center center;
+        max-width: 300px;
+        line-height: 1;
+        padding-left: 60px;
+        @include media-breakpoint-up(sm) {
+            font-size: 1.4rem;
+            margin-left: 0;
+            background: url('../images/buttons/watch-trailer-rectangle.svg') no-repeat center center;
+            background-size: contain;
+            padding: 15px;
+            height: auto;
+            max-width: 330px;
+        }
+        &:before {
+            background: url('../images/icons/hotel.svg') no-repeat center center;
+            background-size: 90px;
+            width: 90px;
+            height: 90px;
+            left: -5px;
+            @include media-breakpoint-up(sm) {
+                left: -75px;
+            }
+        }
+        
     }
 
     &--on-sale {
