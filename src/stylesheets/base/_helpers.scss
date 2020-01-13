@@ -75,6 +75,17 @@ a {
         * {
             color: white;
         }
+       &__angle {
+           background: $project-lighter-blue;
+           padding: 2rem 1rem;
+           color: white;
+
+           @include media-breakpoint-up(xxl) {
+               padding: 4rem 2rem;
+               background: url('../images/blue-shape2.svg') center center no-repeat;
+               background-size: 100%;
+           }
+       }
     }
 
     &--light-blue {
