@@ -50,7 +50,6 @@
         "background": "block-one",
         "new_line": false
     },			
-
     {
         "name": "Kenneth Posner",
         "role": "Lighting Designed by",
@@ -58,14 +57,14 @@
         "background": "block-one",
         "new_line": true
     },
+
     {
         "name": "Steve C.Kennedy",
         "role": "Sound Designed by",
         "bio": "",
         "background": "block-one",
         "new_line": false
-    },					
-                                              				
+    },					                                      				
     {
         "name": "Paul Huntley",
         "role": "Original Wigs and Hair Designed by",
@@ -74,12 +73,12 @@
         "new_line": false
     },
     {
-        "name": "Richard Mawbey",
-        "role": "UK Wigs and Make Up Designed by",
+        "name": "Jill Green CDG",
+        "role": "Casting by",
         "bio": "",
         "background": "block-one",
         "new_line": true
-    },		
+    },	
 
     {
         "name": "Benjamin Endsley Klein",
@@ -93,15 +92,15 @@
         "role": "UK Associate Choreographer and Director",
         "bio": "",
         "background": "block-one",
-        "new_line": false
+        "new_line": true
     },		
 
     {
-        "name": "Jill Green CDG",
-        "role": "Casting by",
+        "name": "Richard Mawbey",
+        "role": "UK Wigs and Make Up Designed by",
         "bio": "",
         "background": "block-one",
-        "new_line": true
+        "new_line": false
     },
     {
         "name": "Tim McQuillen-Wright",
@@ -115,7 +114,7 @@
         "role": "UK Associate Lighting Designer",
         "bio": "",
         "background": "block-one",
-        "new_line": false
+        "new_line": true
     },	
 
     {
@@ -123,7 +122,7 @@
         "role": "Orchestrations by",
         "bio": "",
         "background": "block-one",
-        "new_line": true
+        "new_line": false
     },
     {
         "name": "Alan Williams",
@@ -137,7 +136,7 @@
         "role": "Musical Director",
         "bio": "",
         "background": "block-one",
-        "new_line": false
+        "new_line": true
     },	
 
     {
@@ -145,7 +144,7 @@
         "role": "Costume Supervisor",
         "bio": "",
         "background": "block-one",
-        "new_line": true
+        "new_line": false
     },
     {
         "name": "Props Supervisor",
