@@ -38,6 +38,10 @@
       text-align: center;
       min-height: 100px;
 
+      .disabled & {
+          cursor: default;
+      }
+
       @include media-breakpoint-down(xs) {
         min-height: 80px;
         padding-bottom: 10px;

@@ -126,6 +126,7 @@ export default props => (
                         role
                         bio
                         background
+                        new_line
                     }
                 }
             }
