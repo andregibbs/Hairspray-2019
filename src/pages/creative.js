@@ -46,7 +46,7 @@ const CreativePage = ({data}) => (
                     <Row className="text-center d-none d-xl-flex text-center">
                         <Col xs={12} xl={4}>
                             <a
-                                href="https://londoncoliseum.org/whats-on/hairspray/"
+                                href="https://www.encoretickets.co.uk/london-theatre/musicals/hairspray?utm_source=website&utm_medium=link&utm_campaign=hairspray"
                                 target="_blank" rel="noreferrer noopener"
                                 className="btn btn--book-now">
                                 Box office
@@ -81,7 +81,7 @@ const CreativePage = ({data}) => (
                         <Col xs={12}>
                             <h3 className="book-title text-uppercase">Online</h3>
                             <a
-                                href="https://londoncoliseum.org/whats-on/hairspray/"
+                                href="https://www.encoretickets.co.uk/london-theatre/musicals/hairspray?utm_source=website&utm_medium=link&utm_campaign=hairspray"
                                 target="_blank" rel="noreferrer noopener"
                                 className="btn btn--book-now">
                                 Box office

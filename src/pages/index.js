@@ -97,7 +97,7 @@ class IndexPage extends Component {
                                         begins 23 april</span><br />
                                         <span className="heading--sm text--pink">at the London Coliseum</span></h3>
                                         <a
-                                            href="https://londoncoliseum.org/whats-on/hairspray/"
+                                            href="https://www.encoretickets.co.uk/london-theatre/musicals/hairspray?utm_source=website&utm_medium=link&utm_campaign=hairspray"
                                             rel="noreferrer noopener" target="_blank"
                                             className="btn btn--book-now mt-3 mt-lg-4">
                                             Book now
@@ -111,7 +111,7 @@ class IndexPage extends Component {
                             <Img fadeIn={false} fluid={this.props.data.mainImgSm.childImageSharp.fluid} className="img-fluid mx-auto d-none d-sm-block d-lg-none"  alt="Hairspray"  title="Hairspray"/>
                             <Img fadeIn={false} fluid={this.props.data.mainImgLg.childImageSharp.fluid} className="img-fluid mx-auto d-none d-lg-block d-xl-none mainImg"  alt="Hairspray"  title="Hairspray"/>
                             <a
-                                href="https://londoncoliseum.org/whats-on/hairspray/"
+                                href="https://www.encoretickets.co.uk/london-theatre/musicals/hairspray?utm_source=website&utm_medium=link&utm_campaign=hairspray"
                                 rel="noreferrer noopener" target="_blank"
                                 className="btn btn--book-now mt-n2 d-sm-none">
                                 Book now
@@ -139,7 +139,7 @@ class IndexPage extends Component {
                                         <span className="heading--sm text--pink">at the London Coliseum</span></h3>
                                        
                                         <a
-                                            href="https://londoncoliseum.org/whats-on/hairspray/"
+                                            href="https://www.encoretickets.co.uk/london-theatre/musicals/hairspray?utm_source=website&utm_medium=link&utm_campaign=hairspray"
                                             rel="noreferrer noopener" target="_blank"
                                             className="btn btn--book-now mt-4">
                                             Book now

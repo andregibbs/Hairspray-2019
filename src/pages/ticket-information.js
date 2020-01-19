@@ -40,7 +40,7 @@ const TicketInfoPage = () => (
                     <Row className="text-center d-none d-xl-flex text-center">
                         <Col xs={12} xl={4}>
                             <a
-                                href="https://londoncoliseum.org/whats-on/hairspray/"
+                                href="https://www.encoretickets.co.uk/london-theatre/musicals/hairspray?utm_source=website&utm_medium=link&utm_campaign=hairspray"
                                 target="_blank" rel="noreferrer noopener"
                                 className="btn btn--book-now">
                                 Box office
@@ -75,7 +75,7 @@ const TicketInfoPage = () => (
                         <Col xs={12}>
                             <h3 className="book-title text-uppercase">Online</h3>
                             <a
-                                href="https://londoncoliseum.org/whats-on/hairspray/"
+                                href="https://www.encoretickets.co.uk/london-theatre/musicals/hairspray?utm_source=website&utm_medium=link&utm_campaign=hairspray"
                                 target="_blank" rel="noreferrer noopener"
                                 className="btn btn--book-now">
                                 Box office
@@ -135,7 +135,7 @@ const TicketInfoPage = () => (
                             </div>
                         </div>
                         <p className="text-center mb-0">
-                            Visit <a href="https://londoncoliseum.org/whats-on/hairspray/" className="link--pink" target="_blank" rel="noreferrer noopener">London Coliseum</a> for full performance schedule
+                            Visit <a href="https://www.encoretickets.co.uk/london-theatre/musicals/hairspray?utm_source=website&utm_medium=link&utm_campaign=hairspray" className="link--pink" target="_blank" rel="noreferrer noopener">London Coliseum</a> for full performance schedule
                         </p>
                     </Container>
                 </Container>

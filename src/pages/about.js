@@ -36,7 +36,7 @@ const AboutPage = () => (
                             <p>From the original award-winning creative team of director <strong>Jack O’Brien</strong> and choreographer <strong>Jerry Mitchell</strong>, and featuring the infectiously feel-good songs <strong className="text--blue text--bolder">Good Morning Baltimore</strong>, <strong className="text--blue text--bolder">You Can’t Stop the Beat</strong> and <strong className="text--blue text--bolder">Big, Blonde and Beautiful</strong> this inspirational, fun-loving and fabulously uplifting musical sensation is back and bigger than ever.</p>
                             <p>It’s the show that gives maximum lift<br/> so don’t miss out – book now!</p>
                              <a
-                                href="https://londoncoliseum.org/whats-on/hairspray/"
+                                href="https://www.encoretickets.co.uk/london-theatre/musicals/hairspray?utm_source=website&utm_medium=link&utm_campaign=hairspray"
                                 target="_blank" rel="noreferrer noopener"
                                 className="btn btn--book-now">
                                 Book Now
@@ -65,7 +65,7 @@ const AboutPage = () => (
                     <Row className="text-center d-none d-xl-flex text-center">
                         <Col xs={12} xl={4}>
                             <a
-                                href="https://londoncoliseum.org/whats-on/hairspray/"
+                                href="https://www.encoretickets.co.uk/london-theatre/musicals/hairspray?utm_source=website&utm_medium=link&utm_campaign=hairspray"
                                 target="_blank" rel="noreferrer noopener"
                                 className="btn btn--book-now">
                                 Box office
@@ -100,7 +100,7 @@ const AboutPage = () => (
                         <Col xs={12}>
                             <h3 className="book-title text-uppercase">Online</h3>
                             <a
-                                href="https://londoncoliseum.org/whats-on/hairspray/"
+                                href="https://www.encoretickets.co.uk/london-theatre/musicals/hairspray?utm_source=website&utm_medium=link&utm_campaign=hairspray"
                                 target="_blank" rel="noreferrer noopener"
                                 className="btn btn--book-now">
                                 Box office
